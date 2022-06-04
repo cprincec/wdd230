@@ -11,6 +11,11 @@ h1 {
     color: white;
 }
 
+h1:hover    {
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
 h2  {
     font-weight: bolder;
     color: rgba(156, 86, 5, 0.921);
