@@ -26,7 +26,7 @@ header, footer  {
 
 img {
     float: right;
-    box-shadow: 1px 1px 5px 8px green;
+    box-shadow: 1px 1px green;
     border-radius: 15%;
     margin: 0 3px 15px 0;
 }
