@@ -11,35 +11,35 @@ h1 {
     color: white;
 }
 
-h1:hover    {
-    color: black;
-    text-shadow: 1px 1px white;
-}
-
 h2  {
     font-weight: bolder;
-    color: rgba(156, 86, 5, 0.921);
+    color: rgba(194, 109, 12, 0.921);
     text-shadow: 1px 1px black;
 }
 
 header, footer  {
-    background-color: rgba(156, 86, 5, 0.921);
+    background-color: rgba(194, 109, 12, 0.921);
     text-align: center;
     padding: 15px;
     color: white;
+    border-radius: 20px;
 }
 
 img {
     float: right;
-    box-shadow: 1px 1px 5px 10px rgba(156, 86, 5, 0.921);
+    box-shadow: 1px 1px 5px 10px rgba(194, 109, 12, 0.921);
     border-radius: 15%;
-    margin-right: 5px;
+    margin: 0 5px 10px 0;
 }
 
 main    {
     padding: 0 20px 3px 15px;
 }
 
-#updated    {
-    color: white;
+a    {
+    color: blue;
+}
+
+a:hover {
+    color: rgb(7, 66, 7);
 }
