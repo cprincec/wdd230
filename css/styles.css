@@ -36,9 +36,9 @@ main    {
 }
 
 a    {
-    color: orangered;
+    color: orange;
 }
 
 a:hover {
-    color: orange;
+    color: orangered;
 }
