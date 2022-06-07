@@ -37,6 +37,10 @@ main    {
     padding: 0 20px 3px 15px;
 }
 
+li  {
+    margin-bottom: 5px;
+}
+
 a, span   {
     color: orange;
 }
