@@ -28,9 +28,8 @@ header, footer  {
 
 img {
     box-shadow: 1px 1px green;
-    margin: 0 3px 15px 0;
     max-width: 100%;
-    width: 240px;
+    width: 220px;
     height: 350px;
 }
 
@@ -38,10 +37,14 @@ main    {
     padding: 0 20px 3px 15px;
 }
 
-a    {
+a, span   {
     color: orange;
 }
 
 a:hover {
     color: orangered;
+}
+
+#copyright  {
+    text-align: right;
 }
