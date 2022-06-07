@@ -1,34 +1,37 @@
 body    {
     font-family: 'Source Code Pro', monospace;
     font-weight: 700;
-    line-height: 1.5rem;
+    line-height: 1.5;
     background-color: black; 
     color: white; 
-    font-size: 17px;  
+    max-width: 960px; 
 }
 
 
 h1 {
     font-family: 'Righteous', cursive;
     text-shadow: 2px 2px black;
+    font-size: 1.5rem;
 }
 
 h2  {
     text-shadow: 1px 1px white;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 header, footer  {
     background-color: green;
     text-align: center;
     padding: 15px;
-    border-radius: 20px;
 }
 
 img {
-    float: right;
     box-shadow: 1px 1px green;
-    border-radius: 15%;
     margin: 0 3px 15px 0;
+    max-width: 100%;
+    width: 240px;
+    height: 350px;
 }
 
 main    {
