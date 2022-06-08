@@ -1,5 +1,9 @@
 @media  (min-width: 32.5em) {
 
+    body    {
+        font-size: 1rem;
+    }
+
    .sections  {
        display: grid;
        grid-template-columns: 1fr 1fr;
@@ -8,5 +12,6 @@
 
     footer p    {
         display: flex;
+        font-size: 1rem;
     }
 }
