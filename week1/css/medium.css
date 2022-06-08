@@ -1,0 +1,12 @@
+@media  (min-width: 32.5em) {
+
+   .sections  {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       margin: .3rem 1.5rem 1rem 1.5rem;
+   } 
+
+    footer p    {
+        display: flex;
+    }
+}
