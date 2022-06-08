@@ -41,7 +41,6 @@ h1, h2, h3, h4  {
     margin-bottom: .6rem;
     margin-top: 1rem;
     text-align: center;
-    text-shadow: 1px black;
 }
 
 h1  {
@@ -71,7 +70,7 @@ h3, h4  {
 }
 
 a   {
-    color: red;
+    color: green;
     text-align: center;
     display: block;
     margin-bottom: 1rem;
