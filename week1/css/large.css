@@ -15,7 +15,6 @@
     } 
  
      footer p    {
-        display: flex;
         font-size: larger;
      }
  }
