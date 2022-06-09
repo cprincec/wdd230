@@ -4,6 +4,10 @@
         font-size: 1rem;
     }
 
+    h1  {
+        text-shadow: 1px 1px white;
+    }
+
    .sections  {
        display: grid;
        grid-template-columns: 1fr 1fr;
