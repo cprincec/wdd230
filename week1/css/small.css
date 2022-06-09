@@ -78,6 +78,7 @@ p   {
     padding: 1.3rem;
     font-weight: 700;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .intro  {
