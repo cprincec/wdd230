@@ -23,6 +23,7 @@ header, footer  {
 
 footer  {
     font-size: .8rem;
+    padding: 1rem .3rem;
 }
 
 h1, h2, h3, h4  {
