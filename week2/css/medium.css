@@ -1,9 +1,15 @@
 @media (min-width: 32.5em)    {
+    body    {
+        font-size: 1.2rem;
+    }
+
     nav ul  {
         display: flex;
     }
 
     nav li  {
-        flex: 1 1 auto;
+        flex: 1 1 100%;
     }
+
+
 }
