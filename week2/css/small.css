@@ -64,6 +64,7 @@ nav a:hover {
 
 main    {
     padding: 1rem;
+    background-color: rgb(183, 217, 246);
 }
 
 main p   {
@@ -76,6 +77,34 @@ main p   {
 }
 
 table   {
-    border: 1px solid #6D4C3D;
+    background-color: white;
+    color: black;
 }
+
+.table-head  {
+    text-align: center;
+    background-color: white;
+}
+
+
+td  {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.table-colors td:nth-child(1)  {
+    background-color: #fcf300;
+}
+
+.table-colors td:nth-child(2)   {
+    background-color: rgb(143, 199, 248);
+}
+
+.table-colors td:nth-child(3)   {
+    background-color: #6D4C3D;
+}
+
+
+
+
 
