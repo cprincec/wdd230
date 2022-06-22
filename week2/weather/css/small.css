@@ -48,21 +48,30 @@ header  img {
     width: 4.5rem;
 }
 
-nav {
-    padding: 1rem;
+.navigation {
     background-color: rgb(13, 9, 146);
 }
 
+.navigation a#menuButton:hover  {
+    background-color: rgb(13, 9, 146);
+    color: white;
+}
 
-li  {
+.navigation li  {
     list-style: none;
-    padding: .2rem;
+}
+
+.navigation a:hover    {
+    background-color: white;
+    color: rgb(13, 9, 146);
 }
 
 a {
     text-decoration: none;
     color: white;
     font-weight: 700;
+    display: block;
+    padding: 1rem;
 }
 
 .navigation li:first-child  {
@@ -75,7 +84,7 @@ a {
     display: none;
 }
 
-.navigation a.menuButton::before    {
+.navigation a#menuButton::before    {
     content: "☰Menu";
 }
 
@@ -83,7 +92,7 @@ a {
     display: block;
 }
 
-.responsive a.menuButton::before    {
+.responsive a#menuButton::before    {
     content: "❌";
     color: white;
     text-align: left;
