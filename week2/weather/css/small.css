@@ -1,0 +1,126 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body   {
+    
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: .85rem;
+
+}
+
+header, footer  {
+    background-color: rgb(4, 4, 65);
+    padding: .3rem;
+}
+
+footer {
+    font-size: .6rem;
+}
+
+.heading    {
+    display: flex;
+    flex: 1 1 100%;
+    align-items: center;
+    color: rgb(255, 215, 15);
+    justify-content: center;
+    font-weight: 600;
+}
+
+.heading span   {
+    font-style: italic;
+}
+
+h1  {
+    font-size: 1.3rem;
+    text-shadow: 1px 1px black;
+    color: rgb(78, 191, 248);
+}
+
+header  img {
+    width: 4.5rem;
+}
+
+nav {
+    padding: 1rem;
+    background-color: rgb(13, 9, 146);
+}
+
+
+li  {
+    list-style: none;
+    padding: .2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation li:first-child  {
+    display: block;
+
+    font-size: 1.3rem;
+}
+
+.navigation li  {
+    display: none;
+}
+
+.navigation a.menuButton::before    {
+    content: "☰Menu";
+}
+
+.responsive li  {
+    display: block;
+}
+
+.responsive a.menuButton::before    {
+    content: "❌";
+    color: white;
+    text-align: left;
+}
+
+section {
+    border: 1px solid white;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 9px 0 rgb(13, 9, 146);
+    color: rgb(4, 4, 65);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.mail   {
+    margin-top: .3rem;
+    margin-bottom: .15rem;
+}
+
+.mail::before   {
+    content: "✉ "
+}
+
+.phone::before    {
+    content: "☎ ";
+}
+
+.map  {
+    margin-top: 1rem;
+    border: 1px solid rgb(255, 215, 15);
+    padding: 5rem 3rem;
+    margin: 1.2rem;
+    box-shadow: 1px 1px 10px 3px rgb(255, 215, 15);
+}
+
+footer  {
+    padding: 1rem;
+}
