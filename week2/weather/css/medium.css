@@ -1,17 +1,30 @@
 @media (min-width:32.5em) {
+   
+    body    {
+        font-size: 1rem;
+    }
+
+    p   {
+        font-size: .95rem;
+    }
+
     .navigation li:first-child {
         display: none;
     }
 
     .navigation {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 
     .navigation li {
-        display: block;
+        display: flex;
         flex: 1 1 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navigation a   {
+        flex: 1 1 100%; 
+        text-align: center;
     }
 }
