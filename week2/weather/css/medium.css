@@ -40,7 +40,21 @@
         text-align: center;
     }
 
+    footer img {
+        max-height: 300px;
+    }
+
     img {
         width: 100%;
     }
+
+    .social img {
+        width: 50px;
+    }
+
+    #linkedin   {
+        width: 46px;
+    }
+
+   
 }

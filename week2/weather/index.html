@@ -38,7 +38,16 @@
     <main>
         <section class="hero">
             <h2>Preston</h2>
-            <picture><img class="hero-img" src="./images/weatherimg8.jpg" alt="Banner"></picture>
+            <picture><img id="hero-img" src="./images/weatherimg8.jpg" alt="Banner"></picture>
+            <div class="heroSummary">
+                <h3 id="h3-stats">Weather Summary</h3>
+                <hr id="hr-stats" />
+                <p class="p-stats">Currently: <span id="cover">sunny</span></p>
+                <p class="p-stats">High: <span id="temp">81 °F</span></p>
+                <p class="p-stats">Wind Chill: <span id="windChill">78 °F</span></p>
+                <p class="p-stats">Humidity: <span id="humidity">61%</span></p>
+                <p class="p-stats">Wind Speed: <span id="windSpeed">7 mph</span></p>
+            </div>
         </section>
 
         <div class="mainSub">
@@ -49,7 +58,7 @@
                 <h3>Five Day Forecast</h3>
                 <hr>
                 <article>
-                    <picture><img src="./images/weatherimg3.jpg" alt="Storm"></picture>
+                    <picture><img src="./images/weatherimg7.jpg" alt="Storm"></picture>
                     <h4>A Weather Experience</h4>
                     <span>By Prince C. Chukwu</span>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, iusto qui aspernatur quos
@@ -62,10 +71,19 @@
     </main>
     <footer>
         <div class="top-footer">
-            <h2>Contact Information</h2>
-            <p class="mail">Chukwuprincec@gmail.com</p>
-            <p class="phone">+2348135061764</p>
-            <div class="map"></div>
+            <div>
+                <h2>Contact Information</h2>
+                <p class="mail">Chukwuprincec@gmail.com</p>
+                <p class="phone">+2348135061764</p>
+                <div class="social">
+                    <a href="https://cprincec.github.io/wdd230/" target="_blank"><img src="./images/icon-social-github-128-modified.png" alt="Github Logo"></a>
+                    <a href="https://www.linkedin.com/in/prince-chukwu-778978235/" target="_blank"><img id="linkedin"
+                            src="./images/Circled_Linkedin_svg-128 (1)-modified.png" alt="linkedin Logo"></a>
+                    <a href="https://web.facebook.com/" target="_blank"><img src="images/facebook-128-modified.png"
+                            alt="Facebook logo"></a>
+                </div>
+            </div>
+            <img src="./images/weatherimg6.jpg" alt="">
         </div>
         <div class="bottom-footer">
             <p class="copyright">&copy;2022 | Prince C.Chukwu | Nigeria</p>

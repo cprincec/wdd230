@@ -35,17 +35,36 @@
     }
 
     .hero h2    {
-        margin: 5rem 0 2rem 0;
-    }
-
-    article img   {
-        float: right;
-        width: 320px;
-        margin: 0;
+        margin: 3rem 0 2rem 0;
     }
 
     main {
         max-width: 980px;
         margin: 0 auto;
+    }
+
+    .top-footer {
+        display: flex;
+        column-gap: 5rem;
+        justify-content: center;
+        padding: 3rem 0 2rem 0;
+        font-size: 1rem;
+    }
+
+    .top-footer img {
+        margin-top: 0;
+        max-width: 500px;
+    }
+
+    .top-footer h2  {
+        font-size: 1.2rem;
+    }
+
+    .social {
+        margin-top: 10px;
+    }
+
+    #linkedin   {
+        margin-top: 3px;
     }
 }

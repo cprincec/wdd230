@@ -55,6 +55,7 @@ header  img {
 nav {
     position: sticky;
     top: 0;
+    z-index: 999999;
 }
 
 .navigation {
@@ -119,6 +120,30 @@ a {
     padding: 10px;
     min-height: 10rem;
 } */
+
+.hero   {
+    position: relative;
+}
+
+.heroSummary    {
+    padding: .5rem 1rem 1rem 1rem;
+    width: 300px;
+    background-color: rgb(13, 9, 146);
+    position: absolute;
+    top: 17%;
+    left: 2%;
+    color: white;
+    box-shadow: 0 0 5px 1px rgb(255, 215, 15);
+}
+
+.heroSummary h3 {
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.heroSummary hr {
+    margin-bottom: 10px;
+}
 
 section {
     color: rgb(4, 4, 65);
@@ -188,12 +213,8 @@ article {
     content: "☎ ";
 }
 
-.map  {
+.top-footer img  {
     margin-top: 1rem;
-    border: 1px solid rgb(255, 215, 15);
-    padding: 5rem 3rem;
-    margin: 1.2rem;
-    box-shadow: 1px 1px 10px 3px rgb(255, 215, 15);
 }
 
 footer  {
@@ -202,7 +223,7 @@ footer  {
 
 .top-footer   {
     background-color: rgb(13, 9, 146);
-    padding: 1rem 1.2rem .2rem 1.2rem;
+    padding: 1rem;
 }   
 
 .bottom-footer  {
@@ -213,3 +234,33 @@ footer  {
 footer a    {
     color: rgb(255, 215, 15);
 }
+
+.social {
+    display: flex;
+    justify-content: left;
+    margin-left: -6px;
+    margin-top: -10px;
+}
+
+.social img {
+    width: 35px;
+    border-radius: 80000rem;
+    padding: 0;
+    margin-right: 5px; 
+    transition: .3s; 
+}
+
+.social a {
+    padding: 0;
+    margin: 0;
+}
+
+.social a:hover img{
+    border-right: 3px solid white;
+}
+
+#linkedin   {
+    width: 31px;
+    margin-top: 1.2rem;
+}
+
