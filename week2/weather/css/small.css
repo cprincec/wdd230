@@ -26,13 +26,14 @@ p   {
     font-size: .8rem;
 }
 
-header, footer  {
+header {
     background-color: rgb(4, 4, 65);
     padding: .3rem;
 }
 
 footer {
     font-size: .6rem;
+    padding: .3rem;
 }
 
 .heading    {
@@ -91,7 +92,7 @@ nav {
 a {
     text-decoration: none;
     color: rgb(255, 215, 15);
-    font-weight: 500;
+    font-weight: 600;
     display: block;
     padding: 1rem;
 }
@@ -215,10 +216,6 @@ article img {
     margin-top: 1rem;
 }
 
-footer  {
-    padding: 0;
-}
-
 .top-footer   {
     background-color: rgb(13, 9, 146);
     padding: 1rem;
@@ -242,6 +239,7 @@ footer  {
     padding: 1rem;
     text-align: center;
     color: rgb(255, 215, 15);
+    background-color: rgb(4, 4, 65);
 }
 
 footer a    {
