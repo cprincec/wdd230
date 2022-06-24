@@ -40,6 +40,11 @@
         text-align: center;
     }
 
+    .heroSummary {
+        width: 350px;
+        font-size: .9rem;
+    }
+
     footer img {
         max-height: 300px;
     }

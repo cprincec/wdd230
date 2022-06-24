@@ -128,12 +128,12 @@ a {
 .heroSummary    {
     padding: .3rem 1.1rem 1.1rem 1rem;
     max-width: 320px;
-    background-color: rgb(13, 9, 146);
+    background: radial-gradient( rgb(13, 9, 146),blue);
     position: absolute;
     top: 20%;
-    left: 2%;
+    left: 4%;
     color: white;
-    box-shadow: 0 0 30px 10px white;
+    box-shadow: 0 0 10px 2px white;
     border-radius: 2rem;
     font-size: .75rem;
 }
