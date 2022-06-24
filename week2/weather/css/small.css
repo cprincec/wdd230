@@ -126,14 +126,15 @@ a {
 }
 
 .heroSummary    {
-    padding: .5rem 1rem 1rem 1rem;
-    width: 300px;
+    padding: .3rem 1.1rem 1.1rem 1rem;
+    max-width: 320px;
     background-color: rgb(13, 9, 146);
     position: absolute;
-    top: 17%;
+    top: 20%;
     left: 2%;
     color: white;
-    box-shadow: 0 0 5px 1px rgb(255, 215, 15);
+    box-shadow: 0 0 30px 10px white;
+    border-radius: 2rem;
 }
 
 .heroSummary h3 {
