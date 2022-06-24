@@ -119,40 +119,21 @@ a {
     font-size: large;
 }
 
-/* section {
-    border: 1px solid white;
-    margin: 1.8rem;
-    border-radius: .5rem;
-    box-shadow: 1px 1px 9px 0 rgb(13, 9, 146);
-    color: rgb(4, 4, 65);
-    padding: 10px;
-    min-height: 10rem;
-} */
-
 .hero   {
     position: relative;
 }
 
 .heroSummary    {
     padding: .3rem 1.1rem 1.1rem 1rem;
-    max-width: 320px;
+    margin: .5rem 1rem 0 1rem;
     background: rgb(13, 9, 146);
-    position: absolute;
-    top: 20%;
-    left: 4%;
     color: white;
     box-shadow: 0 0 10px 2px white;
     font-size: .75rem;
-    opacity: .9;
-}
-
-.heroSummary h3 {
-    padding: 0;
-    margin-bottom: 5px;
 }
 
 .heroSummary hr {
-    margin-bottom: 10px;
+    margin-bottom: .5rem;
 }
 
 .weatherSummary {
@@ -170,9 +151,12 @@ section h2, h3 {
 
 article   {
     border: 1px solid white;
-    margin: 2rem .5rem;
-    box-shadow: 0 0 5px 0 rgb(13, 9, 146);
-    color: rgb(4, 4, 65);
+    margin: 1rem .5rem;
+    box-shadow: 0 0 5px 0 rgb(255, 215, 15);
+    color: rgb(13, 9, 146);
+    padding: 1rem;
+    line-height: 1.4;
+    background-color: rgb(255, 215, 15);
 }
 
 article h4, span{
@@ -182,32 +166,35 @@ article h4, span{
 article span  {
     font-size: small;
     font-style: italic;
+    display: block;
 }
 
 
 article p   {
     margin-top: 1rem;
+    font-size: .9rem;
     font-weight: 600;
 }
 
 article a   {
-    color: blue;
-    font-style: italic;
-    display: inline;
-    padding: 0;
-}
-article a:hover {
     color: red;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline;
+    cursor: pointer;
+}
+
+article a:hover {
+    color: green;
 }
 
 article img {
     margin: 0;
 }
 
-article {
-    padding: 1rem;
-    line-height: 1.5;
-    background-color: rgb(255, 215, 15);
+.story {
+    display: none;
 }
 
 .forecast  {

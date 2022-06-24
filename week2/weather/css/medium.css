@@ -40,6 +40,29 @@
         text-align: center;
     }
 
+    .heroSummary    {
+        padding: .3rem 1.1rem 1.1rem 1rem;
+        max-width: 320px;
+        background: rgb(13, 9, 146);
+        position: absolute;
+        top: 20%;
+        left: 4%;
+        color: whitesmoke;
+        box-shadow: 0 0 10px 2px white;
+        font-size: .75rem;
+        opacity: .9;
+        line-height: 1.5;
+    }
+    
+    .heroSummary h3 {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    
+    .heroSummary hr {
+        margin-bottom: 10px;
+    }
+
     .heroSummary {
         width: 350px;
         font-size: .85rem;
@@ -68,8 +91,6 @@
     .weatherTable div span {
         padding: 10px;
     }
-
-    
 
     .weather {
         width: 100px;
@@ -111,6 +132,13 @@
 
     #linkedin   {
         width: 46px;
+    }
+
+    article img {
+        float: right;
+        max-width: 400px;
+        margin-left: 5px;
+        margin-bottom: 5px;
     }
 
    
