@@ -1,8 +1,9 @@
+/*******Show dropdown menu in small view*****/
 function toggleMenu()   {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");    
 };
 
-
+/*******Set the last Updated date****/
 const date = new Date(document.lastModified);
 const updated = document.querySelector("#updated");
 const dayNames = [
@@ -35,10 +36,11 @@ const dateModified = date.getDate();
 const weekModified = dayNames[date.getDay()];
 updated.textContent = `Last Updated: ${weekModified}, ${dateModified} ${monthModified} ${yearModified}`;
 
-
+/*****Display Ad banner depending on Day of the week******/
 const currentDate = new Date();
 const currentDay = currentDate.getDay();
 const ad = document.querySelector(".ad");
+
 if (dayNames[currentDay] == "Friday") {
     ad.style.display = "block";
 } else {
