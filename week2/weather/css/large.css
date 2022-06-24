@@ -43,10 +43,15 @@
         margin: 0 auto;
     }
 
+    .weatherSummary {
+        margin: 3rem 0;
+    }
+
     .top-footer {
         display: flex;
         column-gap: 5rem;
         justify-content: center;
+        align-items: center;
         padding: 3rem 0 2rem 0;
         font-size: 1rem;
     }

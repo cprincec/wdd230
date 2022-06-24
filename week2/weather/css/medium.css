@@ -42,8 +42,60 @@
 
     .heroSummary {
         width: 350px;
-        font-size: .9rem;
+        font-size: .85rem;
     }
+
+    .weatherSummary {
+        display: block;
+        margin: 3rem 1.2rem;
+    }
+
+    .weatherTable {
+        display: flex;
+        justify-content: center;
+    }
+
+    .weatherTable div {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(13, 9, 146);
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .weatherTable div span {
+        padding: 10px;
+    }
+
+    
+
+    .weather {
+        width: 100px;
+    }
+
+    .cloud {
+        width: 55px;
+    }
+
+    .day  {
+    
+        background-color: rgb(13, 9, 146);
+        color: white;
+    }
+
+    .temp  {
+        background-color: rgb(13, 9, 146);
+        color: white;
+    }
+
+    .weatherTable img {
+        justify-self: center;
+    }
+
+
+
 
     footer img {
         max-height: 300px;

@@ -8,11 +8,18 @@ img {
     max-width: 100%;
 }
 
+.ad {
+    background-color: greenyellow;
+    padding: 1rem 1.5rem;
+    color: red;
+    text-align: center;
+    font-weight: 700;
+}
+
 body   {
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: .85rem;
-    background-color: whitesmoke;
 }
 
 p   {
@@ -73,11 +80,12 @@ nav {
 }
 
 .navigation li:hover    {
-    background-color: white;
+    background-color: rgb(255, 215, 15);
 }
 
 .navigation li:hover  a  {
     color: rgb(4, 4, 65);
+    font-weight: 600;
 }
 
 a {
@@ -128,14 +136,14 @@ a {
 .heroSummary    {
     padding: .3rem 1.1rem 1.1rem 1rem;
     max-width: 320px;
-    background: radial-gradient( rgb(13, 9, 146),blue);
+    background: rgb(13, 9, 146);
     position: absolute;
     top: 20%;
     left: 4%;
     color: white;
     box-shadow: 0 0 10px 2px white;
-    border-radius: 2rem;
     font-size: .75rem;
+    opacity: .9;
 }
 
 .heroSummary h3 {
@@ -147,6 +155,10 @@ a {
     margin-bottom: 10px;
 }
 
+.weatherSummary {
+    display: none;
+}
+
 section {
     color: rgb(4, 4, 65);
 }
@@ -156,10 +168,11 @@ section h2, h3 {
     margin: 10px;   
 }
 
-.forecast   {
+article   {
     border: 1px solid white;
     margin: 2rem .5rem;
     box-shadow: 0 0 5px 0 rgb(13, 9, 146);
+    color: rgb(4, 4, 65);
 }
 
 article h4, span{
@@ -174,6 +187,7 @@ article span  {
 
 article p   {
     margin-top: 1rem;
+    font-weight: 600;
 }
 
 article a   {
@@ -193,12 +207,14 @@ article img {
 article {
     padding: 1rem;
     line-height: 1.5;
+    background-color: rgb(255, 215, 15);
 }
 
-.forecast h3  {
+.forecast  {
     background-color: rgb(255, 215, 15);
     margin: 0;
     padding: 1rem;
+    border-radius: 2rem 2rem 0 0;
 }
 
 
@@ -231,6 +247,7 @@ footer  {
 .bottom-footer  {
     padding: 1rem;
     text-align: center;
+    color: rgb(255, 215, 15);
 }
 
 footer a    {
