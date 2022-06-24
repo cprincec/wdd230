@@ -4,7 +4,7 @@
     }
 
     h1  {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-left: -.2rem;
     }
     .heading div   {
@@ -14,12 +14,16 @@
         text-align: center;
     }
 
-    header span {
-        font-size: medium;
+    .heading  {
+        padding: 1rem;
     }
 
-    h2  {
-        font-size: 1.2rem;
+    .heading img    {
+        width: 7rem;
+    }
+
+    header span {
+        font-size: medium;
     }
 
     p   {
@@ -30,8 +34,18 @@
         font-size: 1.1rem;
     }
 
+    .hero h2    {
+        margin: 5rem 0 2rem 0;
+    }
+
+    article img   {
+        float: right;
+        width: 320px;
+        margin: 0;
+    }
+
     main {
-        max-width: 1200px;
+        max-width: 980px;
         margin: 0 auto;
     }
 }

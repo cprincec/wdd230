@@ -12,6 +12,7 @@ body   {
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: .85rem;
+    background-color: whitesmoke;
 }
 
 p   {
@@ -48,6 +49,7 @@ h1  {
 
 header  img {
     width: 4.5rem;
+    margin-bottom: -6px;
 }
 
 nav {
@@ -61,7 +63,7 @@ nav {
 
 .navigation a#menuButton:hover  {
     background-color: rgb(13, 9, 146);
-    color: rgb(255, 215, 15);
+    color: white;
 }
 
 .navigation li  {
@@ -79,7 +81,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 215, 15);
     font-weight: 500;
     display: block;
     padding: 1rem;
@@ -99,10 +101,6 @@ a {
     font-weight: 500;
 }
 
-.navigation a#menuButton::before:hover  {
-    color: yellow;
-}
-
 .responsive li  {
     display: block;
 }
@@ -112,7 +110,7 @@ a {
     font-size: large;
 }
 
-section {
+/* section {
     border: 1px solid white;
     margin: 1.8rem;
     border-radius: .5rem;
@@ -120,8 +118,62 @@ section {
     color: rgb(4, 4, 65);
     padding: 10px;
     min-height: 10rem;
-    text-align: center;
+} */
+
+section {
+    color: rgb(4, 4, 65);
 }
+
+section h2, h3 {    
+    text-align: center; 
+    margin: 10px;   
+}
+
+.forecast   {
+    border: 1px solid white;
+    margin: 2rem .5rem;
+    box-shadow: 0 0 5px 0 rgb(13, 9, 146);
+}
+
+article h4, span{
+    margin: 2px 0;
+}
+
+article span  {
+    font-size: small;
+    font-style: italic;
+}
+
+
+article p   {
+    margin-top: 1rem;
+}
+
+article a   {
+    color: blue;
+    font-style: italic;
+    display: inline;
+    padding: 0;
+}
+article a:hover {
+    color: red;
+}
+
+article img {
+    margin: 0;
+}
+
+article {
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.forecast h3  {
+    background-color: rgb(255, 215, 15);
+    margin: 0;
+    padding: 1rem;
+}
+
 
 .mail   {
     margin-top: .3rem;
