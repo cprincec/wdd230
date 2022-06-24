@@ -115,11 +115,13 @@
         justify-self: center;
     }
 
-
-
-
     footer img {
         max-height: 300px;
+    }
+
+    .top-footer h2 {
+        margin-top: 1rem;
+        font-size: 1.2rem;
     }
 
     img {
@@ -134,11 +136,18 @@
         width: 46px;
     }
 
-    article img {
-        float: right;
-        max-width: 400px;
-        margin-left: 5px;
-        margin-bottom: 5px;
+    article h3 {
+        font-size: 1.5rem;
+        text-align: left;
+
+    }
+
+    article p {
+        font-size: 1rem;
+    }
+
+    article a {
+        font-size: 1rem;
     }
 
    

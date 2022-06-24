@@ -34,6 +34,10 @@
         font-size: 1.1rem;
     }
 
+    article h3 {
+        text-align: left;
+    }
+
     .hero h2    {
         margin: 3rem 0 2rem 0;
     }
@@ -45,6 +49,13 @@
 
     .weatherSummary {
         margin: 3rem 0;
+    }
+
+    article img {
+        float: right;
+        max-width: 400px;
+        margin-left: 5px;
+        margin-bottom: 5px;
     }
 
     .top-footer {
