@@ -80,11 +80,11 @@ nav {
     cursor: pointer;
 }
 
-.navigation li:hover    {
+.navigation li:hover :not(.current)    {
     background-color: rgb(255, 215, 15);
 }
 
-.navigation li:hover  a  {
+.navigation li:hover  a:not(.current) {
     color: rgb(4, 4, 65);
     font-weight: 600;
 }
@@ -95,6 +95,12 @@ a {
     font-weight: 600;
     display: block;
     padding: 1rem;
+}
+
+.navigation li .current {
+    color: white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
 }
 
 .navigation li:first-child  {
@@ -240,10 +246,6 @@ article img {
     text-align: center;
     color: rgb(255, 215, 15);
     background-color: rgb(4, 4, 65);
-}
-
-footer a    {
-    color: rgb(255, 215, 15);
 }
 
 .social {
