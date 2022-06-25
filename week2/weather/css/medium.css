@@ -41,22 +41,21 @@
     }
 
     .heroSummary    {
-        padding: .3rem 1.1rem 1.1rem 1rem;
         max-width: 320px;
-        background: rgb(13, 9, 146);
         position: absolute;
         top: 20%;
         left: 4%;
-        color: whitesmoke;
-        box-shadow: 0 0 10px 2px white;
-        font-size: .75rem;
-        opacity: .9;
+        box-shadow: 0 0 10px 2px  whitesmoke;
+        font-size: .8rem;
         line-height: 1.5;
+        padding-top: 1rem;
+        border-radius: 3rem 1rem 3rem 1rem;
     }
     
     .heroSummary h3 {
         padding: 0;
         margin-bottom: 5px;
+        font-size: 1.3rem
     }
     
     .heroSummary hr {
@@ -76,6 +75,7 @@
     .weatherTable {
         display: flex;
         justify-content: center;
+        margin: 0 5rem;
     }
 
     .weatherTable div {
@@ -119,13 +119,9 @@
         max-height: 300px;
     }
 
-    .top-footer h2 {
-        margin-top: 1rem;
+    .top-footer div #contact-info {
         font-size: 1.2rem;
-    }
-
-    img {
-        width: 100%;
+        margin-bottom: .5rem;
     }
 
     .social img {
@@ -138,7 +134,6 @@
 
     article h3 {
         font-size: 1.5rem;
-        text-align: left;
 
     }
 

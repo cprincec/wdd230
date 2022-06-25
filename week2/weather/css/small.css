@@ -22,17 +22,18 @@ body   {
     font-size: .85rem;
 }
 
+h2  {
+    margin: 1.4rem 0 0 0;
+    padding: .8rem;
+    text-align: center;
+}
+
 p   {
     font-size: .8rem;
 }
 
 header {
     background-color: rgb(4, 4, 65);
-    padding: .3rem;
-}
-
-footer {
-    font-size: .6rem;
     padding: .3rem;
 }
 
@@ -61,9 +62,10 @@ header  img {
 }
 
 nav {
+    margin-top: 0;
     position: sticky;
     top: 0;
-    z-index: 999999;
+    z-index: 99999999999999999;
 }
 
 .navigation {
@@ -130,13 +132,22 @@ a {
     position: relative;
 }
 
+#hero-img   {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .heroSummary    {
     padding: .3rem 1.1rem 1.1rem 1rem;
     margin: .5rem 1rem 0 1rem;
-    background: rgb(13, 9, 146);
+    background-color: rgb(13, 9, 146);
     color: white;
-    box-shadow: 0 0 10px 2px white;
     font-size: .75rem;
+}
+
+.heroSummary h3 {
+    color: rgb(255, 215, 15);
+    font-weight: 900;
 }
 
 .heroSummary hr {
@@ -151,19 +162,19 @@ section {
     color: rgb(4, 4, 65);
 }
 
-section h2, h3 {    
-    text-align: center; 
-    margin: 10px;   
+h3 {    
+    text-align: center;  
 }
 
 article   {
     border: 1px solid white;
-    margin: 1rem .5rem;
-    box-shadow: 0 0 5px 0 rgb(255, 215, 15);
-    color: rgb(13, 9, 146);
+    margin: 1rem 1rem;
+    box-shadow: 0 0 5px 0 rgb(4, 4, 65);
+    color: rgb(4, 4, 65);
     padding: 1rem;
     line-height: 1.5;
     background-color: rgb(255, 215, 15);
+    border-radius: 0 0 2rem 2rem;
 }
 
 article h3 {
@@ -185,8 +196,7 @@ article p   {
 }
 
 article a   {
-    color: red;
-    padding: 0;
+    color: green;
     font-size: .9rem;
     font-weight: 600;
     display: inline;
@@ -194,28 +204,18 @@ article a   {
 }
 
 article a:hover {
-    color: green;
-}
-
-article img {
-    margin: 0;
+    color: red;
 }
 
 .story {
     display: none;
 }
 
-.forecast  {
+h3:not(article h3, #h3-stats)  {
     background-color: rgb(255, 215, 15);
-    margin: 0;
-    padding: 1rem;
+    padding: .8rem;
     border-radius: 2rem 2rem 0 0;
-}
-
-
-.mail   {
-    margin-top: .3rem;
-    margin-bottom: .15rem;
+    box-shadow: 0 0 15px 3px rgb(4, 4, 65);
 }
 
 .top-footer img  {
@@ -228,9 +228,11 @@ article img {
     text-align: center;
 }   
 
-.top-footer h2 {
-    margin-top: 1rem;
-    font-size: 1rem;
+.top-footer div #contact-info {
+    padding: .4rem;
+    color: rgb(4, 4, 65);
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .icon {
@@ -246,6 +248,7 @@ article img {
     text-align: center;
     color: rgb(255, 215, 15);
     background-color: rgb(4, 4, 65);
+    box-shadow: 0 0 15px 3px rgb(4, 4, 65);
 }
 
 .social {

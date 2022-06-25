@@ -13,7 +13,7 @@ const dayNames = [
     "Wednesday",
     "Thursday",
     "Friday",
-    "saturday"
+    "Saturday"
 ];
 const monthNames = [
     "January",
