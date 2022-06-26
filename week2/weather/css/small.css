@@ -94,6 +94,7 @@ nav {
 
 .navigation li:not(.current):hover a  {
     color: rgb(4, 4, 65);
+    background-color: rgb(255, 215, 15);
 }
 
 .navigation li:first-child  {
@@ -110,10 +111,6 @@ nav {
     font-weight: 500;
 }
 
-.current    {
-    border-bottom: 5px solid whitesmoke;
-    
-}
 
 .current a  {
     color: whitesmoke;
@@ -133,6 +130,7 @@ nav {
 }
 
 #hero-img   {
+    padding: 0 1rem;
     width: 100%;
     margin: 0 auto;
 }
@@ -154,10 +152,20 @@ nav {
     margin-bottom: .5rem;
 }
 
-.stats span {
-    font-size: 1rem;
+.stats  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.stats-container    {
+    display: flex;
+    align-items: center;
     color: rgb(255, 215, 15);
-    font-weight: 600;
+}
+
+.stats span {
+    font-size: .9rem;
+    color: whitesmoke;
 }
 
 .weatherSummary {
@@ -219,12 +227,6 @@ article a:hover {
     display: none;
 }
 
-h3:not(article h3, #h3-stats)  {
-    background-color: rgb(255, 215, 15);
-    padding: .8rem;
-    border-radius: 2rem 2rem 0 0;
-    box-shadow: 0 0 15px 3px rgb(4, 4, 65);
-}
 
 .top-footer img  {
     margin-top: 1rem;
@@ -236,11 +238,16 @@ h3:not(article h3, #h3-stats)  {
     text-align: center;
 }   
 
-.top-footer div #contact-info {
+#contact-info   {
+    margin-top: .5rem;
+}
+
+.top-footer .contact {
     padding: .4rem;
-    color: rgb(4, 4, 65);
+    color: white;
     max-width: 500px;
     margin: .7rem auto 0 auto;
+    box-shadow: 0 0 15px 3px rgb(4, 4, 65);
 }
 
 .icon {

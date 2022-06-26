@@ -23,6 +23,7 @@
     .navigation     {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .navigation li:first-child {
@@ -30,10 +31,9 @@
     }
 
     .navigation li  {
-        display:  flex;
-        flex: 1 1 100%;
+        display:  block;
+        flex: 1 1 auto;
         justify-content: center;
-        align-items: center;
     }
 
     .navigation a   {
@@ -44,7 +44,7 @@
     .heroSummary    {
         max-width: 320px;
         position: absolute;
-        top: 23%;
+        top: 16%;
         left: 4%;
         box-shadow: 0 0 10px 2px  whitesmoke;
         font-size: .8rem;
@@ -63,18 +63,34 @@
         margin-bottom: 10px;
     }
 
-    .stats  {
+    .stats-container    {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
+        justify-content: center;
         align-items: center;
+        color: rgb(255, 215, 15);
+    }
+
+    .stats  {
+        padding: 0 3rem .5rem 3rem;
     }
 
     .stats p    {
         justify-self: end;
     }
 
+    .stats span {
+        font-size: 1.1rem;
+        color: whitesmoke;
+        font-weight: 600;
+    }
+
+    .stats  {
+        display: block
+    }
+
     .heroSummary {
-        width: 350px;
+        
         font-size: .85rem;
     }
 
@@ -166,5 +182,12 @@
         font-size: 1rem;
     }
 
+
+    h3:not(article h3, #h3-stats, #contact-info)  {
+        background-color: rgb(255, 215, 15);
+        padding: .8rem;
+        border-radius: 2rem 2rem 0 0;
+        box-shadow: 0 0 15px 3px rgb(4, 4, 65);
+    }
    
 }
