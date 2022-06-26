@@ -49,11 +49,11 @@
                 <h3 id="h3-stats">Weather Summary</h3>
                 <hr id="hr-stats" />
                 <div class="stats">
-                    <div class="stats-container"><p class="p-stats">Currently:</p><span id="cover">Sunny</span></div>
-                    <div class="stats-container"><p class="p-stats">High:</p><span id="temp">81°F</span></div>
-                    <div class="stats-container"><p class="p-stats">Wind Chill:</p><span id="windChill">78°F</span></div>
-                    <div class="stats-container"><p class="p-stats">Humidity:</p><span id="humidity">61%</span></div>
-                    <div class="stats-container"><p class="p-stats">Wind Speed:</p><span id="windSpeed">7mph</span></div>
+                    <div class="stats-container"><p class="p-stats currently">Currently:</p><div><span id="cover">38</span><span>°F</span></div></div>
+                    <div class="stats-container"><p class="p-stats high">High:</p><div><span id="temp">81</span><span>°F</span></div></div>
+                    <div class="stats-container"><p class="p-stats chill">Wind Chill:</p><div><span id="windChill"></span><span id="windChillUnit">°F</span></div></div>
+                    <div class="stats-container"><p class="p-stats humidity">Humidity:</p><div><span id="humidity">61</span><span>%</span></div></div>
+                    <div class="stats-container"><p class="p-stats speed">Wind Speed:</p><div><span id="windSpeed">7</span><span>mph</span></div></div>
                 </div>
             </div>
         </section>
@@ -152,6 +152,7 @@
         </div>
     </footer>
     <script src="./scripts/togglemenu.js"></script>
+    <script src="./scripts/windchill.js"></script>
 </body>
 
 </html>
