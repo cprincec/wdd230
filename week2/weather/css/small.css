@@ -20,12 +20,14 @@ body   {
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: .85rem;
+    position: relative;
 }
 
 h2  {
     margin: 1.4rem 0 0 0;
     padding: .8rem;
     text-align: center;
+    color: rgb(4, 4, 65);
 }
 
 p   {
@@ -35,6 +37,7 @@ p   {
 header {
     background-color: rgb(4, 4, 65);
     padding: .3rem;
+    box-shadow: 0 0 15px 3px rgb(4, 4, 65);
 }
 
 .heading    {
@@ -65,16 +68,19 @@ nav {
     margin-top: 0;
     position: sticky;
     top: 0;
-    z-index: 99999999999999999;
+    box-shadow: 0 0 10px 3px rgb(4, 4, 65);
+    background-color: rgb(13, 9, 146);
+    z-index: 99;
 }
 
-.navigation {
-    background-color: rgb(13, 9, 146);
-}
-
-.navigation a#menuButton:hover  {
-    background-color: rgb(13, 9, 146);
-    color: white;
+.navigation a {
+    color: rgb(255, 215, 15);
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
 }
 
 .navigation li  {
@@ -82,27 +88,12 @@ nav {
     cursor: pointer;
 }
 
-.navigation li:hover :not(.current)    {
+.navigation li:not(.current):hover   {
     background-color: rgb(255, 215, 15);
 }
 
-.navigation li:hover  a:not(.current) {
+.navigation li:not(.current):hover a  {
     color: rgb(4, 4, 65);
-    font-weight: 600;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(255, 215, 15);
-    font-weight: 600;
-    display: block;
-    padding: 1rem;
-}
-
-.navigation li .current {
-    color: white;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
 }
 
 .navigation li:first-child  {
@@ -119,12 +110,21 @@ a {
     font-weight: 500;
 }
 
+.current    {
+    border-bottom: 5px solid whitesmoke;
+    
+}
+
+.current a  {
+    color: whitesmoke;
+}
+
 .responsive li  {
     display: block;
 }
 
 .responsive a#menuButton::before    {
-    content: "❌";
+    content: "❌Close";
     font-size: large;
 }
 
@@ -154,6 +154,12 @@ a {
     margin-bottom: .5rem;
 }
 
+.stats span {
+    font-size: 1rem;
+    color: rgb(255, 215, 15);
+    font-weight: 600;
+}
+
 .weatherSummary {
     display: none;
 }
@@ -171,7 +177,7 @@ article   {
     margin: 1rem 1rem;
     box-shadow: 0 0 5px 0 rgb(4, 4, 65);
     color: rgb(4, 4, 65);
-    padding: 1rem;
+    padding: 1.2rem;
     line-height: 1.5;
     background-color: rgb(255, 215, 15);
     border-radius: 0 0 2rem 2rem;
@@ -185,7 +191,8 @@ article h3 {
 article span  {
     font-size: small;
     font-style: italic;
-    margin: 1px 0;
+    margin: -.2rem 0 0 0;
+    font-weight: 600;
 }
 
 
@@ -196,11 +203,12 @@ article p   {
 }
 
 article a   {
-    color: green;
-    font-size: .9rem;
+    color: blue;
+    font-size: .8rem;
     font-weight: 600;
     display: inline;
     cursor: pointer;
+    font-style: italic;
 }
 
 article a:hover {
@@ -232,7 +240,7 @@ h3:not(article h3, #h3-stats)  {
     padding: .4rem;
     color: rgb(4, 4, 65);
     max-width: 500px;
-    margin: 0 auto;
+    margin: .7rem auto 0 auto;
 }
 
 .icon {

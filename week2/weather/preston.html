@@ -21,8 +21,8 @@
         <div class="heading">
             <picture><img src="images/logo.png" alt="logo"></picture>
             <Div>
-                <h1>Weather <i> for </i>Plans</h1>
-                <span>Your weather, then plans!</span>
+                <h1>Weather for Plans</h1>
+                <span>Your weather, Your plan!</span>
             </Div>
         </div>
     </header>
@@ -30,7 +30,7 @@
         <ul class="navigation">
             <li><a id="menuButton" href="#" onclick="toggleMenu()"></a></li>
             <li><a href="index.html">🏡Home</a></li>
-            <li><a class="current" href="preston.html">🏯Preston</a></li>
+            <li class="current"><a href="preston.html">🏯Preston</a></li>
             <li><a href="#">🏩Soda Springs</a></li>
             <li><a href="#">🏭Fish Haven</a></li>
             <li><a href="#">🗼Storm Center</a></li>
@@ -40,15 +40,22 @@
     <main>
         <section class="hero">
             <h2>Preston</h2>
-            <picture><img id="hero-img" src="./images/banner.jpg" alt="Banner"></picture>
+            <picture>
+                <source media="(max-width: 32.4em)" srcset="./images/preston-banner-400w.jpg">
+                <source media="(min-width: 32.5em)" srcset="./images/preston-banner-800w.jpg">
+                <source media="(min-width: 64em)" srcset=".images/preston-banner-1050.jpg">
+                <img id="hero-img" src="./images/preston-banner-1050.jpg" alt="Banner">
+            </picture>
             <div class="heroSummary">
                 <h3 id="h3-stats">Weather Summary</h3>
                 <hr id="hr-stats" />
-                <p class="p-stats">Currently: <span id="cover">Sunny</span></p>
-                <p class="p-stats">High: <span id="temp">81°F</span></p>
-                <p class="p-stats">Wind Chill: <span id="windChill">78°F</span></p>
-                <p class="p-stats">Humidity: <span id="humidity">61%</span></p>
-                <p class="p-stats">Wind Speed: <span id="windSpeed">7mph</span></p>
+                <div class="stats">
+                    <p class="p-stats">Currently:</p><span id="cover">Sunny</span>
+                    <p class="p-stats">High:</p><span id="temp">81°F</span>
+                    <p class="p-stats">Wind Chill:</p><span id="windChill">78°F</span>
+                    <p class="p-stats">Humidity:</p><span id="humidity">61%</span>
+                    <p class="p-stats">Wind Speed:</p><span id="windSpeed">7mph</span>
+                </div>
             </div>
         </section>
 
@@ -85,40 +92,40 @@
             </section>
 
             <article>
-                <picture><img src="./images/weatherimg3.jpg" alt="Storm"></picture>
+                <picture><img src="./images/article-500w.jpg" alt="Storm"></picture>
                 <h3>A Weather Experience</h3>
-                    <span>By Prince C. Chukwu</span>
-                    <p>To tell the truth, as far as I am concerned, “bad weather” could mean only one thing to me, and
-                        that
-                        is “cold’ weather. But, no matter how I dislike this “cold” weather, I do have to experience it
-                        every year, just like I did about a few years ago. <br><br>
+                <span>By Prince C. Chukwu</span>
+                <p>To tell the truth, as far as I am concerned, “bad weather” could mean only one thing to me, and
+                    that
+                    is “cold’ weather. But, no matter how I dislike this “cold” weather, I do have to experience it
+                    every year, just like I did about a few years ago. <br><br>
 
-                        As I have already mentioned earlier, I don’t really like cold weather, especially, if it is
-                        associated with fog. But, I am pretty sure that Mother Nature doesn’t really care whether I like
-                        it
-                        or not, just as it didn’t on a December morning about a few years ago when I needed to drop my
-                        uncle
-                        at the airport.<a class="showStory" onclick="showStory()">Read full article ...</a></p>
-                    <p class="story">As soon as I woke up in that morning and took a peek through the window, I
-                        immediately knew that it
-                        was going to be a “rough ride” on the roam for us as I could see fog all over.
-                        Still, I took my old car and hit the road after wearing all kinds of warm clothes to protect me
-                        from
-                        the onslaught of a cold winter morning in order to reach the airport as early as possible. But,
-                        despite my best efforts and intention, I was not able to reach the airport on time, because the
-                        traffic on the road was too slow due to too much fog and low visibility of the road. <br><br>
+                    As I have already mentioned earlier, I don’t really like cold weather, especially, if it is
+                    associated with fog. But, I am pretty sure that Mother Nature doesn’t really care whether I like
+                    it
+                    or not, just as it didn’t on a December morning about a few years ago when I needed to drop my
+                    uncle
+                    at the airport.<a class="showStory" onclick="showStory()">Read full article ...</a></p>
+                <p class="story">As soon as I woke up in that morning and took a peek through the window, I
+                    immediately knew that it
+                    was going to be a “rough ride” on the roam for us as I could see fog all over.
+                    Still, I took my old car and hit the road after wearing all kinds of warm clothes to protect me
+                    from
+                    the onslaught of a cold winter morning in order to reach the airport as early as possible. But,
+                    despite my best efforts and intention, I was not able to reach the airport on time, because the
+                    traffic on the road was too slow due to too much fog and low visibility of the road. <br><br>
 
-                        In fact, my uncle and I gave up the idea of catching the flight, but we still took a chance and
-                        arrived at the airport anyway. Luckily, the airport authority had understood the gravity of the
-                        situation, due to the bad weather on that day, and decided to delay the flight. <br><br>
+                    In fact, my uncle and I gave up the idea of catching the flight, but we still took a chance and
+                    arrived at the airport anyway. Luckily, the airport authority had understood the gravity of the
+                    situation, due to the bad weather on that day, and decided to delay the flight. <br><br>
 
-                        Anyway, we were lucky to catch the flight, in the end, thanks to the airport authority, but we
-                        had
-                        to go through a lot of concern and frustration on the road because of bad weather, caused by
-                        extreme
-                        fog. Even worse, I even felt very nervous and scared as I almost was going to have an accident
-                        because of low visibility on the road. So, it was indeed a bad experience for me.
-                    </p>
+                    Anyway, we were lucky to catch the flight, in the end, thanks to the airport authority, but we
+                    had
+                    to go through a lot of concern and frustration on the road because of bad weather, caused by
+                    extreme
+                    fog. Even worse, I even felt very nervous and scared as I almost was going to have an accident
+                    because of low visibility on the road. So, it was indeed a bad experience for me.
+                </p>
             </article>
         </div>
     </main>
@@ -129,13 +136,16 @@
                 <p class="mail"><span class="icon first-icon">✉</span>Chukwuprincec@gmail.com</p>
                 <p class="phone"><span class="icon">☎</span>+2348135061764</p>
                 <div class="social">
-                    <a href="https://cprincec.github.io/wdd230/" target="_blank"><img src="./images/githublogo.png" alt="Github Logo"></a>
-                    <a href="https://www.linkedin.com/in/prince-chukwu-778978235/" target="_blank"><img id="linkedin" src="./images/linkedinlogo.png" alt="linkedin Logo"></a>
-                    <a href="https://web.facebook.com/" target="_blank"><img src="images/facebooklogo.png" alt="Facebook logo"></a>
+                    <a href="https://cprincec.github.io/wdd230/" target="_blank"><img src="./images/githublogo.png"
+                            alt="Github Logo"></a>
+                    <a href="https://www.linkedin.com/in/prince-chukwu-778978235/" target="_blank"><img id="linkedin"
+                            src="./images/linkedinlogo.png" alt="linkedin Logo"></a>
+                    <a href="https://web.facebook.com/" target="_blank"><img src="images/facebooklogo.png"
+                            alt="Facebook logo"></a>
                 </div>
                 <div class="close"></div>
             </div>
-            <img src="./images/weatherimg6.jpg" alt="">
+            <img src="./images/map-img-500w.jpg" alt="">
         </div>
         <div class="bottom-footer">
             <p class="copyright">Ⓒ2022 | Prince C.Chukwu | Nigeria</p>

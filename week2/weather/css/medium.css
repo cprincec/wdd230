@@ -20,30 +20,31 @@
         font-size: .95rem;
     }
 
+    .navigation     {
+        display: flex;
+        justify-content: center;
+    }
+
     .navigation li:first-child {
         display: none;
     }
 
-    .navigation {
-        display: flex;
-    }
-
-    .navigation li {
-        display: flex;
+    .navigation li  {
+        display:  flex;
         flex: 1 1 100%;
-        align-items: center;
         justify-content: center;
+        align-items: center;
     }
 
     .navigation a   {
-        flex: 1 1 100%; 
         text-align: center;
     }
+
 
     .heroSummary    {
         max-width: 320px;
         position: absolute;
-        top: 20%;
+        top: 23%;
         left: 4%;
         box-shadow: 0 0 10px 2px  whitesmoke;
         font-size: .8rem;
@@ -60,6 +61,16 @@
     
     .heroSummary hr {
         margin-bottom: 10px;
+    }
+
+    .stats  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .stats p    {
+        justify-self: end;
     }
 
     .heroSummary {
@@ -115,6 +126,12 @@
         justify-self: center;
     }
 
+    article img {
+        float: right;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
     footer img {
         max-height: 300px;
     }
@@ -130,6 +147,10 @@
 
     #linkedin   {
         width: 46px;
+    }
+
+    article {
+        margin-bottom: 3rem;
     }
 
     article h3 {
