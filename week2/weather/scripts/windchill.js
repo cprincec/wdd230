@@ -9,7 +9,7 @@ function calculateWindSpeed(temp, windSpeed)    {
     windChill = Math.round(Chill);
 }
 
-if (temp <= 50 & windSpeed > 3) {
+if (temp <= 50 && windSpeed > 3) {
     calculateWindSpeed(temp, windSpeed);
 } else {
     windChill = "N/A";

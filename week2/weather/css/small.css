@@ -152,15 +152,26 @@ nav {
     margin-bottom: .5rem;
 }
 
-.stats  {
+.stats-container    {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: self-start;
+    color: rgb(255, 215, 15);
 }
 
-.stats-container    {
-    display: flex;
-    align-items: center;
-    color: rgb(255, 215, 15);
+.tempState  {
+    display: block;
+}
+
+.stats p    {
+    justify-self: end;
+    font-weight: 600;
+}
+
+.stats span {
+    color: whitesmoke;
+    font-weight: 600;
 }
 
 .stats span {

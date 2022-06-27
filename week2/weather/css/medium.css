@@ -42,7 +42,6 @@
 
 
     .heroSummary    {
-        max-width: 320px;
         position: absolute;
         top: 16%;
         left: 4%;
@@ -51,6 +50,7 @@
         line-height: 1.5;
         padding-top: 1rem;
         border-radius: 3rem 1rem 3rem 1rem;
+        opacity: .95;
     }
     
     .heroSummary h3 {
@@ -63,30 +63,12 @@
         margin-bottom: 10px;
     }
 
-    .stats-container    {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        justify-content: center;
-        align-items: center;
-        color: rgb(255, 215, 15);
+    .stats span {
+        font-size: 1.1rem;
     }
 
     .stats  {
         padding: 0 3rem .5rem 3rem;
-    }
-
-    .stats p    {
-        justify-self: end;
-    }
-
-    .stats span {
-        font-size: 1.1rem;
-        color: whitesmoke;
-        font-weight: 600;
-    }
-
-    .stats  {
-        display: block
     }
 
     .heroSummary {
