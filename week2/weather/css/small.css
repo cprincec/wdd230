@@ -36,7 +36,7 @@ p   {
 
 header {
     background-color: rgb(4, 4, 65);
-    padding: .3rem;
+    padding: .6rem .3rem;
     box-shadow: 0 0 15px 3px rgb(4, 4, 65);
 }
 
@@ -146,6 +146,7 @@ nav {
 .heroSummary h3 {
     color: rgb(255, 215, 15);
     font-weight: 900;
+    margin: .5rem 0;
 }
 
 .heroSummary hr {
@@ -306,3 +307,32 @@ article a:hover {
     margin-top: 1.2rem;
 }
 
+#gallery    {
+    display: grid;
+    justify-content: center;
+}
+
+#gallery div {
+    background-color: rgb(13, 9, 146);
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 0 0 8px 1px grey;
+    margin: .5rem 2rem;
+    max-width: 400px;
+    color: rgb(255, 215, 15);
+}
+
+#gallery img    {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    height: auto;
+}
+
+#gallery picture    {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+
+#gallery figcaption {
+    padding: .1rem 1rem .5rem .5rem;
+    background-color: rgb(13, 9, 146);
+}

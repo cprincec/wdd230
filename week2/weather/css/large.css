@@ -14,8 +14,12 @@
         text-align: center;
     }
 
+    header  {
+        padding: 0;
+    }
+
     .heading  {
-        padding: 1rem;
+        padding: .5rem;
     }
 
     .heading img    {
@@ -123,5 +127,18 @@
 
     #linkedin   {
         margin-top: 3px;
+    }
+
+    #gallery    {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: .5rem;
+        row-gap: 2rem;
+        padding: .5rem .8rem;
+        font-size: .8rem;
+    }
+
+    #gallery div    {
+        margin: .5rem;
+        color: white;
     }
 }

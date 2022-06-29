@@ -55,6 +55,7 @@
     
     .heroSummary h3 {
         padding: 0;
+        margin-top: -.2rem;
         margin-bottom: 5px;
         font-size: 1.3rem
     }
@@ -170,6 +171,17 @@
         padding: .8rem;
         border-radius: 2rem 2rem 0 0;
         box-shadow: 0 0 15px 3px rgb(4, 4, 65);
+    }
+
+    #gallery    {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        column-gap: .3rem;
+        padding: .5rem .8rem;
+    }
+
+    #gallery div    {
+        margin: .5rem;
     }
    
 }
