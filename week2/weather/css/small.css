@@ -313,7 +313,6 @@ article a:hover {
 }
 
 #gallery div {
-    background-color: rgb(13, 9, 146);
     border-radius: 1rem 1rem 0 0;
     box-shadow: 0 0 8px 1px grey;
     margin: .5rem 2rem;
