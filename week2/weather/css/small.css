@@ -335,4 +335,5 @@ article a:hover {
 #gallery figcaption {
     padding: .1rem 1rem .5rem .5rem;
     background-color: rgb(13, 9, 146);
+    font-weight: 600;
 }
