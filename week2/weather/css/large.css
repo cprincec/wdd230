@@ -145,6 +145,24 @@
     }
 
     #gallery figcaption {
-        padding-bottom: .5rem;       
+        padding-bottom: .8rem;
+        padding-top: .6rem; 
+        text-align: center; 
+        padding-left: 0;    
+        padding-right: 0; 
+    }
+
+    #gallery picture:hover img {
+        box-shadow: 0 -6px 15px rgb(255, 215, 15);
+    }
+
+    #gallery picture:hover  figcaption {
+        background-color: rgb(255, 215, 15);
+        color: rgb(4, 4, 65);
+        box-shadow: 0 0 10px rgb(255, 215, 15);
+    }
+
+    #gallery picture:hover {
+        background-color: rgb(255, 215, 15);
     }
 }

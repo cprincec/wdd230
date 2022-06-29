@@ -13,7 +13,7 @@ const loadImages = (image) => {
 
 const imgOptions = {
     threshold: 0,
-    rootMargin: "0px 0px 10px 0px"
+    rootMargin: "0px 0px 5px 0px"
 };
 
 // // Call the loadimages function on all images with the data-src attribute.
