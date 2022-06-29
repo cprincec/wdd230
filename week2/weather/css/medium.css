@@ -183,5 +183,13 @@
     #gallery div    {
         margin: .5rem;
     }
+
+    #gallery figcaption {
+        padding-top: .6rem; 
+        padding-left: 0;    
+        padding-right: 0;
+        text-align: center;
+        padding-bottom: .8rem;  
+    }
    
 }

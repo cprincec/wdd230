@@ -144,14 +144,6 @@
         align-items: center;
     }
 
-    #gallery figcaption {
-        padding-bottom: .8rem;
-        padding-top: .6rem; 
-        text-align: center; 
-        padding-left: 0;    
-        padding-right: 0; 
-    }
-
     #gallery picture:hover img {
         box-shadow: 0 -6px 15px rgb(255, 215, 15);
     }
