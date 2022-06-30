@@ -8,6 +8,11 @@ img {
     max-width: 100%;
 }
 
+h1, h2, h3, h4  {
+    font-family: 'Sofadi One', cursive;
+    font-weight: 900;
+}
+
 .ad {
     background-color: greenyellow;
     padding: 1rem 1.5rem;
