@@ -195,5 +195,9 @@
     form    {
         max-width: 30rem;
     }
+
+    form p  {
+        font-size: 1.4rem;
+    }
    
 }
