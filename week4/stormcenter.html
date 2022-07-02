@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weatherforplans 📷Gallery</title>
+    <meta name="description" content="Cool weather images before planning your activity." />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Sofadi+One&display=swap"
+        rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <link rel="stylesheet" href="../week2/weather/css/small.css" />
+    <link rel="stylesheet" href="../week2/weather/css/medium.css" />
+    <link rel="stylesheet" href="../week2/weather/css/large.css" />
+</head>
+
+<body>
+    <div class="ad">
+        Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
+        pavilion.
+    </div>
+    <header>
+        <div class="heading">
+            <picture><img src="images/logo.png" alt="logo" /></picture>
+            <div>
+                <h1>Weather for Plans</h1>
+                <span>Your weather, Your plan!</span>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a id="menuButton" href="#" onclick="toggleMenu()"></a></li>
+            <li><a href="../week2/weather/index.html">🏡Home</a></li>
+            <li><a href="../week2/weather/preston.html">🏯Preston</a></li>
+            <li><a href="#">🏩Soda Springs</a></li>
+            <li><a href="#">🏭Fish Haven</a></li>
+            <li class="current"><a href="./stormcenter.html">🗼Storm Center</a></li>
+            <li><a href="./gallery-7.html">📷Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Storm Center</h2>
+        <form action="./thanks.html">
+            <p>Fill the form below to <em>Report a Storm</em>: </p>
+            <fieldset class="top">
+                <legend>Personal Information</legend>
+                <label>Full Name<span>*</span>
+                    <input type="text" name="fname" required minlength="5">
+                </label>
+
+                <label>Email<span>*</span>
+                    <input type="email" name="email" required placeholder="eg username@gmail.com">
+                </label>
+
+                <label>Phone Number<span>*</span>
+                    <input type="tel" name="phone" required>
+                </label>
+
+                <label>Zip Code<span>*</span>
+                    <input type="number" name="zip" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Information</legend>
+                <div>
+                    <label>Storm Date
+                        <input type="date" name="sdate">
+                    </label>
+                    <label for="stype">Storm Type
+                        <input list="stypes" name="stype" id="stype">
+                    </label>
+                    <datalist id="stypes">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                    <label>Storm Severity (1 - 10)
+                        <input type="range" list="sseverity" name="sseverity" min="1" max="10" step="1" value="1">
+                        <datalist id="sseverity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>  
+                        </datalist>
+                    </label>
+                    <label>Storm Region
+                        <select name="sregion">
+                            <option value="" selected disabled>Select Region...</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                        </select>
+                    </label>
+                    <label class="danger-container">Are you in danger?
+                        <div class="danger">
+                            <div>
+                                <label for="yes"> Yes</label>
+                                <input type="radio" id="yes" name="danger" value="yes">
+                            </div>
+                            <div>
+                                <label for="maybe"> Maybe</label>
+                                <input type="radio" id="maybe" name="danger" value="maybe">
+                            </div>
+                            <div>
+                                <label for="no">No</label>
+                                <input type="radio" id="no" name="danger" value="no">
+                            </div>
+                        </div>
+                    </label>
+                    <label>Additional Comments
+                        <textarea name="comment">
+                        </textarea>
+                    </label>
+                    <button id="report-storm-btn" type="submit">Report Storm</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div class="top-footer">
+            <div>
+                <h3 id="contact-info">Contact</h3>
+                <p class="mail">
+                    <span class="icon first-icon">✉</span>Chukwuprincec@gmail.com
+                </p>
+                <p class="phone"><span class="icon">☎</span>+2348135061764</p>
+                <div class="social">
+                    <a href="https://cprincec.github.io/wdd230/" target="_blank"><img src="./images/githublogo.png"
+                            alt="Github Logo" /></a>
+                    <a href="https://www.linkedin.com/in/prince-chukwu-778978235/" target="_blank"><img id="linkedin"
+                            src="./images/linkedinlogo.png" alt="linkedin Logo" /></a>
+                    <a href="https://web.facebook.com/" target="_blank"><img src="images/facebooklogo.png"
+                            alt="Facebook logo" /></a>
+                </div>
+                <div class="close"></div>
+            </div>
+            <img src="./images/map-img-500w.jpg" alt="" />
+        </div>
+        <div class="bottom-footer">
+            <p class="copyright">Ⓒ2022 | Prince C.Chukwu | Nigeria</p>
+            <p id="updated"></p>
+        </div>
+    </footer>
+    <script src="../week2/weather/scripts/togglemenu.js"></script>
+    <script src="./scripts/galleryLazyLoad.js"></script>
+</body>
+
+</html>

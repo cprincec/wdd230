@@ -341,3 +341,104 @@ article a:hover {
     background-color: rgb(13, 9, 146);
     font-weight: 600;
 }
+
+/*************** FORM ********************/
+form    {
+    color: rgb(13, 9, 146);
+    font-weight: 900;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+form p  {
+    margin-bottom: 1rem;
+    font-family: 'Sofadi One', cursive;
+    font-size: 1.5rem;
+    color: rgb(4, 4, 65);
+    font-weight: 100;
+}
+
+fieldset    {
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    padding: 0 1rem 0 1rem;
+}
+
+button  {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: .8rem 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(13, 9, 146);
+    color: white;
+    border: 2px solid rgb(4, 4, 65);
+    border-radius: .5rem;
+}
+
+legend  {
+    margin: 0 1rem;
+    padding: 0 .3rem;
+    font-weight: 900;
+    color: rgb(4, 4, 65);
+}
+
+label, input, textarea, select   {
+    display: block;
+    border-radius: .3rem;
+    width: 100%;
+}
+
+label.danger:first-child {
+    margin-top: -10rem;
+}
+
+label   {
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+}
+
+.danger {
+    max-width: 12rem;
+    display: block;
+}
+
+.danger div   {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    max-height: 1.5rem;
+    margin: .7rem 0;
+}
+
+.danger input[type="radio"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .3rem;  
+}
+
+.danger input[type="radio"]:checked {
+    background-color: rgb(13, 9, 146);
+}
+
+input, select, textarea  {
+    margin: .2rem 0;
+    padding: .6rem .5rem;
+    outline: none;
+    border: 1px solid rgb(13, 9, 146);
+    font-size: 1.1rem;
+    background-color: rgb(255, 215, 15);
+}
+
+input:focus:not(:valid)   {
+    border-left: 7px solid red;
+}
+
+input:required:valid {
+    border-left: 7px solid green;
+}
+
+textarea    {
+    text-align: left;
+}
