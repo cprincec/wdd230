@@ -192,20 +192,32 @@
         padding-bottom: .8rem;  
     }
 
-   
     form    {
-        width: 30rem;
-    }
-    
-    form p  {
-        font-size: 1.4rem;
+        max-width: 28rem;
     }
 
-    .comment-textarea, textarea    {
-        max-width: 25.5rem;
-        min-width: 25.5rem;
-        width: 100%;
+    label   {
+        font-size: 1.1rem;
     }
+
+    legend  {
+        font-size: 1.2rem;
+    }
+
+    label.top input, select, textarea   {
+        max-width: 26rem;
+        font-size: 1.1rem;
+    }
+
+    input[type="range"]   {
+        max-width: 26rem;
+    }
+
+    form button {
+        max-width: 26rem;
+    }
+
+
 
    
 }

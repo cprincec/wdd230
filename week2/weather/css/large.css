@@ -157,4 +157,29 @@
     #gallery picture:hover {
         background-color: rgb(255, 215, 15);
     }
+
+    form    {
+        max-width: 30rem;
+    }
+
+    label   {
+        font-size: 1.1rem;
+    }
+
+    legend  {
+        font-size: 1.2rem;
+    }
+
+    label.top input, select, textarea   {
+        max-width: 28rem;
+        font-size: 1.1rem;
+    }
+
+    input[type="range"]   {
+        max-width: 28rem;
+    }
+
+    form button {
+        max-width: 28rem;
+    }
 }

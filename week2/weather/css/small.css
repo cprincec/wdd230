@@ -343,114 +343,131 @@ article a:hover {
 }
 
 /*************** FORM ********************/
+
 form    {
     color: rgb(13, 9, 146);
-    font-weight: 900;
-    margin: 0 auto;
-    padding: 1rem;
-}
+    font-size: 1rem;
+    font-weight: 600;
+    margin:  1rem auto;
+    max-width: 22rem;
 
-form p  {
-    margin-bottom: 1rem;
-    font-family: 'Sofadi One', cursive;
-    font-size: 1.1rem;
-    color: rgb(4, 4, 65);
-    font-weight: 100;
 }
 
 fieldset    {
-    margin-bottom: 2rem;
-    border-radius: 1rem;
-    padding: 0 1rem 0 1rem;
+    margin: 2rem 0;
     border: 2px solid rgb(13, 9, 146);
-}
-
-button  {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: 100%;
-    padding: .8rem 1rem;
-    font-size: 1.2rem;
-    background-color: rgb(4, 4, 65);
-    color: white;
-    border: 2px solid rgb(4, 4, 65);
-    border-radius: .5rem;
-    cursor: pointer;
-}
-
-button:hover    {
-    background-color: rgb(13, 9, 146);
+    border-radius: .8rem;
+    padding: 1rem;
 }
 
 legend  {
-    margin: 0 1rem;
-    padding: 0 .3rem;
-    font-weight: 900;
     color: rgb(4, 4, 65);
+    font-size: 1.1rem;
+    margin: 0 .8rem;
+    padding: 0 .2rem;
 }
 
-label, input, textarea, select   {
+label.top input, select, textarea   {
     display: block;
-    border-radius: .3rem;
+    margin-top: .2rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 20rem;
+    padding: .5rem;
+    font-size: 1rem;
+    border: 2px solid rgb(255, 215, 15);
+}
+
+input[type="range"]   {
+    display: block;
+    margin-bottom: 1.5rem;
+    max-width: 20rem;
     width: 100%;
 }
 
-label.danger:first-child {
-    margin-top: -10rem;
-}
-
-label   {
-    margin: 1.5rem 0;
-    font-size: 1.1rem;
-}
-
-.danger {
-    max-width: 12rem;
-    display: block;
-}
-
-.danger div   {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    max-height: 1.5rem;
-    margin: .7rem 0;
-}
-
-.danger input[type="radio"] {
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-right: .3rem;
-    margin-top: .4rem;  
-}
-
-input, select, textarea  {
-    margin: .2rem 0;
-    padding: .6rem .5rem;
-    outline: none;
-    border: 1px solid rgb(13, 9, 146);
-    font-size: 1.1rem;
+label.top input, select, textarea   {
     background-color: rgb(255, 215, 15);
 }
 
-input,select:focus   {
-    border-left: 7px solid red;
+label.top input:required:focus  {
+    border: 2px solid red;
+    border-left: .6rem solid red;
+    outline: none;
 }
 
-input:required:valid {
-    border-left: 7px solid green;
+label.top input:focus   {
+        border: 2px solid red;
+        outline: none;
 }
 
-.comment-textarea, textarea    {
-    max-width: 16rem;
-    min-width: 16rem;
-    min-height: 10rem;
-    width: 100%;
+select:focus    {
+    border: 2px solid red;
+    outline: none;
+}
+
+textarea:focus    {
+    border: 2px solid red;
+    outline: none;
+}
+
+label.top input:required:valid  {
+    border: 2px solid green;
+    border-left: .6rem solid green;
+    outline: none;
+    background-color: rgba(225, 247, 250, 0.668);
+}
+
+#no {
+    margin-bottom: 1rem;
 }
 
 form span   {
     color: red;
 }
+
+select   {
+    margin-bottom: 2rem;
+}
+
+.danger:first-child    {
+    margin-top: .5rem;
+}
+
+.danger div {
+    display: grid;
+    grid-template-columns: 1.7rem 1fr; 
+    margin-bottom: .7rem;   
+}
+
+.danger input{
+    width: 1.5rem;
+    height: 1.2rem;
+}
+
+.danger label   {
+    justify-content: left;
+    margin-top: -.1rem;
+    font-size: 1rem;
+}
+
+form button {
+    padding: .7rem 1rem;
+    font-size: 1.1rem;
+    background-color: rgb(4, 4, 65);
+    color: white;
+    max-width: 20rem;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover   {
+    background-color: rgb(13, 9, 146);
+    color: rgb(255, 215, 15);
+}
+
+
+
+
 
 
