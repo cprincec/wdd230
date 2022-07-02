@@ -192,12 +192,20 @@
         padding-bottom: .8rem;  
     }
 
+   
     form    {
-        max-width: 30rem;
+        width: 30rem;
     }
-
+    
     form p  {
         font-size: 1.4rem;
     }
+
+    .comment-textarea, textarea    {
+        max-width: 25.5rem;
+        min-width: 25.5rem;
+        width: 100%;
+    }
+
    
 }
