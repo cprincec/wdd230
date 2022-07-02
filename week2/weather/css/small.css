@@ -421,11 +421,8 @@ label   {
 .danger input[type="radio"] {
     width: 1.5rem;
     height: 1.5rem;
-    margin-right: .3rem;  
-}
-
-.danger input[type="radio"]:checked {
-    background-color: rgb(13, 9, 146);
+    margin-right: .3rem;
+    margin-top: .4rem;  
 }
 
 input, select, textarea  {
@@ -437,7 +434,7 @@ input, select, textarea  {
     background-color: rgb(255, 215, 15);
 }
 
-input:focus:not(:valid)   {
+input,select:focus   {
     border-left: 7px solid red;
 }
 
@@ -446,11 +443,11 @@ input:required:valid {
 }
 
 .comment-textarea, textarea    {
-    max-width: 20rem;
+    max-width: 16rem;
     min-width: 16rem;
+    min-height: 10rem;
     width: 100%;
 }
-
 
 form span   {
     color: red;
