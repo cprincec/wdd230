@@ -359,9 +359,10 @@ form p  {
 }
 
 fieldset    {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     border-radius: 1rem;
     padding: 0 1rem 0 1rem;
+    border: 2px solid rgb(13, 9, 146);
 }
 
 button  {
@@ -370,10 +371,15 @@ button  {
     width: 100%;
     padding: .8rem 1rem;
     font-size: 1.2rem;
-    background-color: rgb(13, 9, 146);
+    background-color: rgb(4, 4, 65);
     color: white;
     border: 2px solid rgb(4, 4, 65);
     border-radius: .5rem;
+    cursor: pointer;
+}
+
+button:hover    {
+    background-color: rgb(13, 9, 146);
 }
 
 legend  {
@@ -442,3 +448,8 @@ input:required:valid {
 textarea    {
     text-align: left;
 }
+
+form span   {
+    color: red;
+}
+
