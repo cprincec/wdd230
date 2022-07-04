@@ -1,0 +1,92 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    text-align: center;
+    background-color: rgb(207, 232, 255);
+    color: rgb(1, 8, 147);
+}
+
+p   {
+    font-family: 'Comfortaa', cursive;
+}
+
+h1  {
+    color: rgb(6, 6, 157);
+    text-shadow: 1px 1px whitesmoke;
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.1rem;
+}
+
+h2  {
+    color: rgb(6, 6, 157);
+    font-family: 'Comfortaa', cursive; 
+    margin-bottom: .6rem;   
+}
+
+section div    {
+    background-color: rgb(185, 222, 255);
+    color: rgb(6, 6, 157);
+    padding: .5rem .8rem;
+    width: .5rem;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto .6rem auto;
+    font-size: .9rem;
+    box-shadow: 0 0 5px grey;
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+    width: 160px;
+    height: 200px;
+    margin-top: .6rem;
+}
+
+section {
+    border: 1px solid #eee;
+    margin: 1.5rem 2rem 0 2rem;
+    padding: 1rem .2rem;
+    background-color: rgb(185, 222, 255);
+    box-shadow: 0 0 5px gray;
+}
+
+header, footer  {
+    box-shadow: 0 0 10px 2px grey;
+    background-color: rgb(185, 222, 255); 
+    padding: 1.5rem 1rem;
+}
+
+header  {
+    margin-bottom: 1.5rem;
+}
+
+footer  {
+    font-weight: 600;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+@media (min-width: 32.5em)  {
+    div.cards   {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 64em)  {
+    div.cards   {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 1rem;
+    }
+
+    section {
+        margin: .5rem .5rem;
+    }
+}
