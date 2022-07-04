@@ -59,7 +59,7 @@
                 </label>
 
                 <label class="top">Zip Code<span>*</span>
-                    <input type="number" name="zip" min="1000" required pattern="([0-9]{5,})$" title="Enter a minimum of 5 numbers">
+                    <input type="number" name="zip" required>
                 </label>
             </fieldset>
 
@@ -80,9 +80,9 @@
                     </datalist>
                 </label>
                 
-                <label for="rating">Storm Severity (1 = low,  10 = high)
-                    <div class="range"><input type="range" oninput="showRating(this.value)"  onchange="showRating(this.value)" id="rating" list="severity" name="sseverity" min="1" max="10" step="1" value="1"><span id="ratingValue">1</span></div>
-                </label>
+                <div>Storm Severity (1 = low,  10 = high)
+                    <label class="range"><input type="range" oninput="showRating(this.value)"  onchange="showRating(this.value)" id="rating" list="severity" name="sseverity" min="1" max="10" step="1" value="1"><span id="ratingValue">1</span></label>
+                </div>
                 <datalist id="severity">
                     <option value="1">
                     <option value="2">
@@ -103,7 +103,7 @@
                         <option value="Fish Haven">Fish Haven</option>
                     </select>
                 </label>
-                <label class="danger-container">Are you in danger?
+                <div class="danger-container">Are you in danger?
                     <div class="danger">
                         <div>
                             <input type="radio" id="yes" name="danger" value="yes">
@@ -118,7 +118,7 @@
                             <label for="no">No</label>
                         </div>
                     </div>
-                </label>
+                </div>
                 <label id="comment-textarea">Additional Comments
                     <textarea name="comment" minlength="2"></textarea>
                 </label>
