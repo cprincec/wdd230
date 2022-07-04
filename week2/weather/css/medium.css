@@ -193,7 +193,8 @@
     }
 
     form    {
-        max-width: 28rem;
+        max-width: 26rem;
+        margin: 1rem auto;
     }
 
     label   {
@@ -205,16 +206,16 @@
     }
 
     label.top input, select, textarea   {
-        max-width: 26rem;
+        max-width: 24rem;
         font-size: 1.1rem;
     }
 
     input[type="range"]   {
-        max-width: 26rem;
+        max-width: 24rem;
     }
 
     form button {
-        max-width: 26rem;
+        max-width: 24rem;
     }
 
 
