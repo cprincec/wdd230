@@ -24,7 +24,7 @@ h2  {
     color: rgb(93, 53, 1);
     font-family: 'Yeseva One', cursive;
     text-shadow: 1px 1px beige;
-    margin-bottom: 1rem;   
+    margin-bottom: 1.5rem;   
 }
 
 section div    {
@@ -37,7 +37,7 @@ section div    {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 1rem auto;
+    margin: .5rem auto 1.5rem auto;
     font-size: .9rem;
     box-shadow: 0 0 5px brown;
     font-weight: 600;
