@@ -7,10 +7,10 @@ body    {
     text-align: center;
     background-color: rgb(207, 232, 255);
     color: rgb(1, 8, 147);
+    font-family: 'Comfortaa', cursive;
 }
 
 p   {
-    font-family: 'Comfortaa', cursive;
     line-height: 1.5;
 }
 
