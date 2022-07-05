@@ -79,10 +79,9 @@ header  {
 
 footer  {
     font-weight: 600;
-    padding: 1.8rem 1rem;
+    padding: 1.8rem .5rem;
     margin-top: 2rem;
     font-size: .9rem;
-
 }
 
 @media (min-width: 32.5em)  {
