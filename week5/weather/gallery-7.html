@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherforplans Homepage</title>
+    <meta name="description" content="Come see your weather before planning your activity.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Sofadi+One&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+
+<body>
+    <div class="ad">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <div class="heading">
+            <picture id="logo-container"><img id="logo" src="images/logo.png" alt="logo"></picture>
+            <Div>
+                <h1>Weather for Plans</h1>
+                <span>Your weather, Your plan!</span>
+            </Div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a id="menuButton" href="#" onclick="toggleMenu()"></a></li>
+            <li><a href="./index.html">🏡Home</a></li>
+            <li><a href="./preston.html">🏯Preston</a></li>
+            <li><a href="#">🏩Soda Springs</a></li>
+            <li><a href="#">🏭Fish Haven</a></li>
+            <li><a href="./stormcenter.html">🗼Storm Center</a></li>
+            <li class="current"><a href="./gallery-7.html">📷Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Gallery</h2>
+        <div id="gallery">
+            <div>
+                <picture>
+                    <img src="./images/placeholder.png"
+                        data-src="./images/gallery-images/High-rise-building-under-lightening.jpg" alt="Image" />
+                    <figcaption>Highrise building under lightening</figcaption>
+                </picture>
+            </div>
+            <div>
+                <picture>
+                    <img src="./images/placeholder.png" data-src="./images/gallery-images/moon-view-from-clouds.jpg"
+                        alt="Image" />
+                    <figcaption>Moon view from clouds</figcaption>
+                </picture>
+            </div>
+            <div>
+                <picture>
+                    <img src="./images/placeholder.png" data-src="./images/gallery-images/Northern-lights.jpg"
+                        alt="Image" />
+                    <figcaption>Northern lights</figcaption>
+                </picture>
+            </div>
+            <div>
+                <picture>
+                    <img src="./images/placeholder.png" data-src="./images/gallery-images/road-between-trees.jpg"
+                        alt="Image" />
+                    <figcaption>Road between trees</figcaption>
+                </picture>
+            </div>
+            <div>
+                <picture>
+                    <img src="./images/placeholder.png" data-src="./images/gallery-images/the-perfect-storm.jpg"
+                        alt="Image" />
+                    <figcaption>The perfect storm</figcaption>
+                </picture>
+            </div>
+            <div>
+                <picture>
+                    <img src="./images/placeholder.png"
+                        data-src="./images/gallery-images/Green-grass-under-white-clouds.jpg" alt="Image" />
+                    <figcaption>Green grass under white clouds</figcaption>
+                </picture>
+            </div>
+            <div>
+                <picture>
+                    <img src="./images/placeholder.png"
+                        data-src="./images/gallery-images/Aerial-view-photo-of-castle.jpg" alt="Image" />
+                    <figcaption>Aerial view photo of castle</figcaption>
+                </picture>
+            </div>
+            <div>
+                <picture>
+                    <img src="./images/placeholder.png"
+                        data-src="./images/gallery-images/city-scape-under-black-sky.jpg" alt="Image" />
+                    <figcaption>City scape under black sky</figcaption>
+                </picture>
+            </div>
+            <div>
+                <picture>
+                    <img src="./images/placeholder.png" data-src="./images/gallery-images/cars-covered-in-snow.jpg"
+                        alt="Image" />
+                    <figcaption>Cars covered in snow</figcaption>
+                </picture>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="top-footer">
+            <div>
+                <h3 id="contact-info">Contact</h3>
+                <p class="mail">
+                    <span class="icon first-icon">✉</span>Chukwuprincec@gmail.com
+                </p>
+                <p class="phone"><span class="icon">☎</span>+2348135061764</p>
+                <div class="social">
+                    <a href="https://cprincec.github.io/wdd230/" target="_blank"><img src="./images/githublogo.png"
+                            alt="Github Logo" /></a>
+                    <a href="https://www.linkedin.com/in/prince-chukwu-778978235/" target="_blank"><img id="linkedin"
+                            src="./images/linkedinlogo.png" alt="linkedin Logo" /></a>
+                    <a href="https://web.facebook.com/" target="_blank"><img src="images/facebooklogo.png"
+                            alt="Facebook logo" /></a>
+                </div>
+                <div class="close"></div>
+            </div>
+            <img src="./images/map-img-500w.jpg" alt="" />
+        </div>
+        <div class="bottom-footer">
+            <p class="copyright">Ⓒ2022 | Prince C.Chukwu | Nigeria</p>
+            <p id="updated"></p>
+        </div>
+    </footer>
+    <script src="../week2/weather/scripts/togglemenu.js"></script>
+    <script src="./scripts/galleryLazyLoad.js"></script>
+</body>
+
+</html>

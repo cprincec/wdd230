@@ -70,7 +70,6 @@ header, footer  {
     box-shadow: 0 0 10px 2px grey;
     background-color: rgb(93, 53, 1); 
     padding: 1.5rem 1rem;
-  
 }
 
 header  {
@@ -84,10 +83,13 @@ footer  {
     font-size: .9rem;
 }
 
+div.cards   {
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(300px, 1fr) );
+}
+
 @media (min-width: 32.5em)  {
     div.cards   {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -107,7 +109,7 @@ footer  {
 
 @media (min-width: 64em)  {
     div.cards   {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+       
         padding: 0 1rem;
     }
 }

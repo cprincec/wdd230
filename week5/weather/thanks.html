@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weatherforplans 📷Gallery</title>
+    <meta name="description" content="Cool weather images before planning your activity." />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Sofadi+One&display=swap"
+        rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <link rel="stylesheet" href="../week2/weather/css/small.css" />
+    <link rel="stylesheet" href="../week2/weather/css/medium.css" />
+    <link rel="stylesheet" href="../week2/weather/css/large.css" />
+</head>
+
+<body>
+    <div class="ad">
+        Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
+        pavilion.
+    </div>
+    <header>
+        <div class="heading">
+            <picture><img src="images/logo.png" alt="logo" /></picture>
+            <div>
+                <h1>Weather for Plans</h1>
+                <span>Your weather, Your plan!</span>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a id="menuButton" href="#" onclick="toggleMenu()"></a></li>
+            <li><a href="../week2/weather/index.html">🏡Home</a></li>
+            <li><a href="../week2/weather/preston.html">🏯Preston</a></li>
+            <li><a href="#">🏩Soda Springs</a></li>
+            <li><a href="#">🏭Fish Haven</a></li>
+            <li class="current"><a href="./stormcenter.html">🗼Storm Center</a></li>
+            <li><a href="./gallery-7.html">📷Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>We have received your storm report.</h2><h2>Thank You!</h2>
+    </main>
+    <footer>
+        <div class="top-footer">
+            <div>
+                <h3 id="contact-info">Contact</h3>
+                <p class="mail">
+                    <span class="icon first-icon">✉</span>Chukwuprincec@gmail.com
+                </p>
+                <p class="phone"><span class="icon">☎</span>+2348135061764</p>
+                <div class="social">
+                    <a href="https://cprincec.github.io/wdd230/" target="_blank"><img src="./images/githublogo.png"
+                            alt="Github Logo" /></a>
+                    <a href="https://www.linkedin.com/in/prince-chukwu-778978235/" target="_blank"><img id="linkedin"
+                            src="./images/linkedinlogo.png" alt="linkedin Logo" /></a>
+                    <a href="https://web.facebook.com/" target="_blank"><img src="images/facebooklogo.png"
+                            alt="Facebook logo" /></a>
+                </div>
+                <div class="close"></div>
+            </div>
+            <img src="./images/map-img-500w.jpg" alt="" />
+        </div>
+        <div class="bottom-footer">
+            <p class="copyright">Ⓒ2022 | Prince C.Chukwu | Nigeria</p>
+            <p id="updated"></p>
+        </div>
+    </footer>
+    <script src="../week2/weather/scripts/togglemenu.js"></script>
+    <script src="./scripts/galleryLazyLoad.js"></script>
+</body>
+
+</html>

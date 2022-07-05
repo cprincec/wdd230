@@ -4,11 +4,12 @@
         font-size: 1rem;
     }
 
+  
     .heading  {
         padding: .7rem;
     }
 
-    .heading img    {
+    #logo    {
         width: 5.5rem;
     }
 
