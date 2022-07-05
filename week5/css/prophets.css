@@ -41,6 +41,7 @@ section div    {
     font-size: .9rem;
     box-shadow: 0 0 5px grey;
     font-weight: 600;
+    transition: 1s;
 }
 
 img {
@@ -56,6 +57,12 @@ section {
     padding: 1rem .5rem;
     background-color: rgb(185, 222, 255);
     box-shadow: 0 0 5px gray;
+}
+
+section:hover div  {
+    transform: rotate(360deg);
+    background-color:brown;
+    color: aliceblue;
 }
 
 header, footer  {
