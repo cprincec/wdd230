@@ -15,7 +15,7 @@ p   {
 }
 
 h1  {
-    text-shadow: 1px 1px bisque;
+    text-shadow: 1px 1px brown;
     font-family: 'DM Serif Display', serif;
     font-size: 2.1rem;
 }
@@ -28,7 +28,7 @@ h2  {
 }
 
 section div    {
-    background-color: burlywood;
+    background-color: blanchedalmond;
     color: brown;
     padding: .5rem .8rem;
     width: .5rem;
@@ -39,7 +39,7 @@ section div    {
     align-items: center;
     margin: 0 auto 1rem auto;
     font-size: .9rem;
-    box-shadow: 0 0 7bpx grey;
+    box-shadow: 0 0 5px brown;
     font-weight: 600;
     transition: 1s;
 }
@@ -66,9 +66,9 @@ section:hover div  {
 }
 
 header, footer  {
-    color: rgb(97, 0, 0);
+    color: white;
     box-shadow: 0 0 10px 2px grey;
-    background-color: burlywood; 
+    background-color: rgb(93, 53, 1); 
     padding: 1.5rem 1rem;
   
 }
