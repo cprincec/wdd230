@@ -5,7 +5,7 @@
 
 body    {
     text-align: center;
-    background-color: aliceblue;
+    background-color: blanchedalmond;
     color: rgb(93, 53, 1);
     font-family: 'Comfortaa', cursive;
 }
@@ -15,20 +15,20 @@ p   {
 }
 
 h1  {
-    text-shadow: 1px 1px brown;
+    text-shadow: 1px 1px bisque;
     font-family: 'DM Serif Display', serif;
     font-size: 2.1rem;
 }
 
 h2  {
-    color: brown;
+    color: rgb(93, 53, 1);
     font-family: 'Yeseva One', cursive;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px beige;
     margin-bottom: 1rem;   
 }
 
 section div    {
-    background-color: aliceblue;
+    background-color: burlywood;
     color: brown;
     padding: .5rem .8rem;
     width: .5rem;
@@ -39,7 +39,7 @@ section div    {
     align-items: center;
     margin: 0 auto 1rem auto;
     font-size: .9rem;
-    box-shadow: 0 0 5px grey;
+    box-shadow: 0 0 7bpx grey;
     font-weight: 600;
     transition: 1s;
 }
@@ -55,21 +55,22 @@ section {
     border: 1px solid #eee;
     margin: 1.5rem 1rem 0 1rem;
     padding: 1rem .5rem;
-    background-color: rgb(185, 222, 255);
+    background-color: ghostwhite;
     box-shadow: 0 0 5px gray;
 }
 
 section:hover div  {
     transform: rotate(360deg);
-    background-color:brown;
+    background-color:rgb(93, 53, 1);
     color: aliceblue;
 }
 
 header, footer  {
+    color: rgb(97, 0, 0);
     box-shadow: 0 0 10px 2px grey;
-    background-color: black; 
+    background-color: burlywood; 
     padding: 1.5rem 1rem;
-    color: whitesmoke;
+  
 }
 
 header  {
@@ -78,7 +79,7 @@ header  {
 
 footer  {
     font-weight: 600;
-    padding: 1.5rem 1rem;
+    padding: 1.8rem 1rem;
     margin-top: 2rem;
     font-size: .9rem;
 
@@ -98,6 +99,10 @@ footer  {
 
     section {
         margin: .5rem .5rem;
+    }
+
+    footer  {
+        font-size: 1.3rem;
     }
 }
 
