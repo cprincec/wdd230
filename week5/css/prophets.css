@@ -37,6 +37,7 @@ section div    {
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0 auto 1rem auto;
     font-size: .9rem;
     box-shadow: 0 0 5px grey;
