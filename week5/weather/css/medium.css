@@ -1,0 +1,224 @@
+@media (min-width:32.5em) {
+   
+    body    {
+        font-size: 1rem;
+    }
+
+    .heading  {
+        padding: .7rem;
+    }
+
+    .heading img    {
+        width: 5.5rem;
+    }
+
+    h1  {
+        font-size: 1.6rem;
+    }
+
+    p   {
+        font-size: .95rem;
+    }
+
+    .navigation     {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li  {
+        display:  block;
+        flex: 1 1 auto;
+        justify-content: center;
+    }
+
+    .navigation a   {
+        text-align: center;
+    }
+
+
+    .heroSummary    {
+        position: absolute;
+        top: 16%;
+        left: 4%;
+        box-shadow: 0 0 10px 2px  whitesmoke;
+        font-size: .8rem;
+        line-height: 1.5;
+        padding-top: 1rem;
+        border-radius: 3rem 1rem 3rem 1rem;
+        opacity: .95;
+    }
+    
+    .heroSummary h3 {
+        padding: 0;
+        margin-top: -.2rem;
+        margin-bottom: 5px;
+        font-size: 1.3rem
+    }
+    
+    .heroSummary hr {
+        margin-bottom: 10px;
+    }
+
+    .stats span {
+        font-size: 1.1rem;
+    }
+
+    .stats  {
+        padding: 0 2rem .5rem 3rem;
+    }
+
+    .heroSummary {
+        
+        font-size: .85rem;
+    }
+
+    .weatherSummary {
+        display: block;
+        margin: 3rem 1.2rem;
+    }
+
+    .weatherTable {
+        display: flex;
+        justify-content: center;
+        margin: 0 5rem;
+    }
+
+    .weatherTable div {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(13, 9, 146);
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .weatherTable div span {
+        padding: 10px;
+    }
+
+    .weather {
+        width: 100px;
+    }
+
+    .cloud {
+        width: 55px;
+    }
+
+    .day  {
+    
+        background-color: rgb(13, 9, 146);
+        color: white;
+    }
+
+    .temp  {
+        background-color: rgb(13, 9, 146);
+        color: white;
+    }
+
+    .weatherTable img {
+        justify-self: center;
+    }
+
+    article img {
+        float: right;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    footer img {
+        max-height: 300px;
+    }
+
+    .top-footer div #contact-info {
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+    }
+
+    .social img {
+        width: 50px;
+    }
+
+    #linkedin   {
+        width: 46px;
+    }
+
+    article {
+        margin-bottom: 3rem;
+    }
+
+    article h3 {
+        font-size: 1.5rem;
+
+    }
+
+    article p {
+        font-size: 1rem;
+    }
+
+    article a {
+        font-size: 1rem;
+    }
+
+
+    h3:not(article h3, #h3-stats, #contact-info)  {
+        background-color: rgb(255, 215, 15);
+        padding: .8rem;
+        border-radius: 2rem 2rem 0 0;
+        box-shadow: 0 0 15px 3px rgb(4, 4, 65);
+    }
+
+    #gallery    {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        column-gap: .3rem;
+        padding: .5rem .8rem;
+    }
+
+    #gallery div    {
+        margin: .5rem;
+    }
+
+    #gallery figcaption {
+        padding-top: .6rem; 
+        padding-left: 0;    
+        padding-right: 0;
+        text-align: center;
+        padding-bottom: .8rem;  
+    }
+
+    form    {
+        max-width: 26rem;
+        margin: 1rem auto;
+    }
+
+    label   {
+        font-size: 1.1rem;
+    }
+
+    legend  {
+        font-size: 1.2rem;
+    }
+
+    label.top input, select, textarea   {
+        max-width: 24rem;
+        font-size: 1.1rem;
+    }
+
+    input[type="range"]   {
+        max-width: 24rem;
+    }
+
+    form button {
+        max-width: 24rem;
+    }
+
+
+
+   
+}

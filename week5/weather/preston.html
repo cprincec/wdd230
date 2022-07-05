@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherforplans Homepage</title>
+    <meta name="description" content="Come see your weather before planning your activity.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Sofadi+One&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+
+<body>
+    <div class="ad">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <div class="heading">
+            <picture><img src="images/logo.png" alt="logo"></picture>
+            <Div>
+                <h1>Weather for Plans</h1>
+                <span>Your weather, Your plan!</span>
+            </Div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a id="menuButton" href="#" onclick="toggleMenu()"></a></li>
+            <li><a href="index.html">🏡Home</a></li>
+            <li class="current"><a href="preston.html">🏯Preston</a></li>
+            <li><a href="#">🏩Soda Springs</a></li>
+            <li><a href="#">🏭Fish Haven</a></li>
+            <li><a href="/wdd230/week4/stormcenter.html">🗼Storm Center</a></li>
+            <li><a href="/wdd230/week4/gallery-7.html">📷Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <h2>Preston</h2>
+            <picture>
+                <source media="(min-width: 64em)" srcset="./images/Preson-banner-large-960w.jpg">
+                <source media="(min-width: 32.5em)" srcset="./images/Preson-banner-medium-700w.jpg">
+                <img id="hero-img" src="./images/Preson-banner-small-400w.jpg" alt="Banner">
+            </picture>
+            <div class="heroSummary">
+                <h3 id="h3-stats">Weather Summary</h3>
+                <hr id="hr-stats" />
+                <div class="stats">
+                    <div class="stats-container"><p class="p-stats currently">Currently:&nbsp;</p><div><span id="cover">38</span><span>°F</span><span class="tempState">Cloudy</span></div></div>
+                    <div class="stats-container"><p class="p-stats high">High:&nbsp;</p><div><span id="temp">81</span><span>°F</span></div></div>
+                    <div class="stats-container"><p class="p-stats chill">Wind Chill:&nbsp;</p><div><span id="windChill"></span><span id="windChillUnit">°F</span></div></div>
+                    <div class="stats-container"><p class="p-stats humidity">Humidity:&nbsp;</p><div><span id="humidity">61</span><span>%</span></div></div>
+                    <div class="stats-container"><p class="p-stats speed">Wind Speed:&nbsp;</p><div><span id="windSpeed">7</span><span>mph</span></div></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="mainSub">
+            <section class="weatherSummary">
+                <h3 class="forecast">Five Day Forecast</h3>
+                <div class="weatherTable">
+                    <div>
+                        <span class="day">Wed</span>
+                        <img class="weather cloud" src="./images/cloudicon.png" alt="Cloud">
+                        <span class="temp">87°F</span>
+                    </div>
+                    <div>
+                        <span class="day">Thurs</span>
+                        <img class="weather" src="./images/sunicon.png" alt="Sun">
+                        <span class="temp">75°F</span>
+                    </div>
+                    <div>
+                        <span class="day">Fri</span>
+                        <img class="weather cloud" src="./images/cloudicon.png" alt="Cloud">
+                        <span class="temp">80°F</span>
+                    </div>
+                    <div>
+                        <span class="day">Sat</span>
+                        <img class="weather" src="./images/cloudrainicon.png" alt="Weather">
+                        <span class="temp">68°F</span>
+                    </div>
+                    <div class="sunday">
+                        <span class="day">Sun</span>
+                        <img class="weather" src="./images/cloudrainicon.png" alt="">
+                        <span class="temp">59°F</span>
+                    </div>
+                </div>
+            </section>
+
+            <article>
+                <picture><img src="./images/article-500w.jpg" alt="Storm"></picture>
+                <h3>A Weather Experience</h3>
+                <span>By Prince C. Chukwu</span>
+                <p>To tell the truth, as far as I am concerned, “bad weather” could mean only one thing to me, and
+                    that
+                    is “cold’ weather. But, no matter how I dislike this “cold” weather, I do have to experience it
+                    every year, just like I did about a few years ago. <br><br>
+
+                    As I have already mentioned earlier, I don’t really like cold weather, especially, if it is
+                    associated with fog. But, I am pretty sure that Mother Nature doesn’t really care whether I like
+                    it
+                    or not, just as it didn’t on a December morning about a few years ago when I needed to drop my
+                    uncle
+                    at the airport.<a class="showStory" onclick="showStory()">Read full article ...</a></p>
+                <p class="story">As soon as I woke up in that morning and took a peek through the window, I
+                    immediately knew that it
+                    was going to be a “rough ride” on the roam for us as I could see fog all over.
+                    Still, I took my old car and hit the road after wearing all kinds of warm clothes to protect me
+                    from
+                    the onslaught of a cold winter morning in order to reach the airport as early as possible. But,
+                    despite my best efforts and intention, I was not able to reach the airport on time, because the
+                    traffic on the road was too slow due to too much fog and low visibility of the road. <br><br>
+
+                    In fact, my uncle and I gave up the idea of catching the flight, but we still took a chance and
+                    arrived at the airport anyway. Luckily, the airport authority had understood the gravity of the
+                    situation, due to the bad weather on that day, and decided to delay the flight. <br><br>
+
+                    Anyway, we were lucky to catch the flight, in the end, thanks to the airport authority, but we
+                    had
+                    to go through a lot of concern and frustration on the road because of bad weather, caused by
+                    extreme
+                    fog. Even worse, I even felt very nervous and scared as I almost was going to have an accident
+                    because of low visibility on the road. So, it was indeed a bad experience for me.
+                </p>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <div class="top-footer">
+            <div class="contact">
+                <h3 id="contact-info">Contact</h3>
+                <p class="mail"><span class="icon first-icon">✉</span>Chukwuprincec@gmail.com</p>
+                <p class="phone"><span class="icon">☎</span>+2348135061764</p>
+                <div class="social">
+                    <a href="https://cprincec.github.io/wdd230/" target="_blank"><img src="./images/githublogo.png"
+                            alt="Github Logo"></a>
+                    <a href="https://www.linkedin.com/in/prince-chukwu-778978235/" target="_blank"><img id="linkedin"
+                            src="./images/linkedinlogo.png" alt="linkedin Logo"></a>
+                    <a href="https://web.facebook.com/" target="_blank"><img src="images/facebooklogo.png"
+                            alt="Facebook logo"></a>
+                </div>
+                <div class="close"></div>
+            </div>
+            <img src="./images/map-img-500w.jpg" alt="">
+        </div>
+        <div class="bottom-footer">
+            <p class="copyright">Ⓒ2022 | Prince C.Chukwu | Nigeria</p>
+            <p id="updated"></p>
+        </div>
+    </footer>
+    <script src="./scripts/togglemenu.js"></script>
+    <script src="./scripts/windchill.js"></script>
+</body>
+
+</html>
