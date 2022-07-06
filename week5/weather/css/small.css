@@ -309,7 +309,7 @@ article a:hover {
     border-radius: 80000rem;
     padding: 0;
     margin-right: 5px; 
-    transition: .3s; 
+    transition: .5s; 
 }
 
 .social a {
@@ -318,7 +318,7 @@ article a:hover {
 }
 
 .social a:hover img{
-    border-right: 3px solid white;
+    transform: scale(1.2);
 }
 
 #linkedin   {
