@@ -357,6 +357,9 @@ article a:hover {
 }
 
 /*************** FORM ********************/
+.storm-center-main  {
+    padding: 0 1rem;
+}
 
 form    {
     color: rgb(13, 9, 146);
@@ -364,7 +367,6 @@ form    {
     font-weight: 600;
     margin: 1rem auto;
     max-width: 20rem;
-
 }
 
 fieldset    {
@@ -495,6 +497,62 @@ form button {
 form button:hover   {
     background-color: rgb(13, 9, 146);
 }
+
+
+/**** HOMEPAGE ****/
+
+.homepage-section   {
+    position: relative;
+    max-width: 330px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.homepage-div   {
+    max-width: 250px;
+    min-height: 340px;
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px rgb(13, 9, 146);
+    margin: 1.5rem auto 2rem auto;
+    background: linear-gradient(to bottom, rgb(13, 9, 146) 0%, rgb(13, 9, 146) 50%, rgb(255, 215, 15) 50%, rgb(255, 215, 15) 100%);
+}
+
+.homepage-div span  {
+    color: white;
+}
+
+.town-detail    {
+    margin-top: 12.3rem;
+    line-height: 1.6;
+    max-width: 250px;
+    color: rgb(4, 4, 65)
+}
+
+.homepage-section picture   {
+    display: block; 
+    position: absolute; 
+    top: 21%; 
+    left: 0; 
+}
+
+.homepage-section picture img    {
+    margin-top: .5rem;
+    width: 100%;
+    border-radius: .5rem;
+    box-shadow: 0 0 8px rgb(13, 9, 146);
+}
+
+.homepage-section h2     {
+    margin: 0 0 .5rem 0;
+    padding: 0;
+    color: white;
+} 
+
+
+
+
 
 
 
