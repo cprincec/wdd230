@@ -62,6 +62,8 @@ h1  {
     font-size: 1.3rem;
     text-shadow: 1px 1px black;
     color: rgb(78, 191, 248);
+    margin: 0;
+    text-align: center;
 }
 
 header  img {
@@ -360,7 +362,7 @@ form    {
     color: rgb(13, 9, 146);
     font-size: 1rem;
     font-weight: 600;
-    margin:  1rem;
+    margin: 1rem auto;
     max-width: 20rem;
 
 }
