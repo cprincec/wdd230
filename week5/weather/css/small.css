@@ -524,7 +524,7 @@ form button:hover   {
 }
 
 .town-detail    {
-    margin-top: 12.3rem;
+    margin-top: 11.8rem;
     line-height: 1.6;
     max-width: 250px;
     color: rgb(4, 4, 65)
@@ -533,8 +533,16 @@ form button:hover   {
 .homepage-section picture   {
     display: block; 
     position: absolute; 
-    top: 21%; 
+    top: 21.5%; 
     left: 0; 
+}
+
+.soda-springs-container-home .town-detail   {
+    margin-top: 11.2rem;
+}
+
+.soda-springs-container-home picture    {
+    top: 25%;
 }
 
 .homepage-section picture img    {
@@ -549,6 +557,8 @@ form button:hover   {
     padding: 0;
     color: white;
 } 
+
+
 
 
 
