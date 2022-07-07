@@ -217,5 +217,66 @@
 
     form button {
         max-width: 24rem;
-    }   
+    }  
+    
+    
+    /***** HOMEPAGE ******/
+    .homepage-section   {
+        position: static;
+        max-width: none;
+        margin: 0 auto;
+        font-weight: 600;
+    }
+    
+    .homepage-div   {
+        max-width: none;
+        min-height: none;
+        text-align: center;
+        padding-top: 1rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 8px rgb(13, 9, 146);
+        margin: 1.5rem auto 2rem auto;
+        background: linear-gradient(to right, rgb(13, 9, 146) 0%, rgb(13, 9, 146) 50%, rgb(255, 215, 15) 50%, rgb(255, 215, 15) 100%);
+    }
+    
+    .homepage-div span  {
+        color: white;
+    }
+    
+    .town-detail    {
+        margin-top: 0;
+        line-height: 1.6;
+        max-width: none;
+        color: white
+    }
+    
+    .homepage-section picture   {
+        display: block; 
+        position: static; 
+        top: none; 
+        left: none; 
+    }
+    
+    .soda-springs-container-home .town-detail   {
+        margin-top: 11.2rem;
+    }
+    
+    .soda-springs-container-home picture    {
+        top: none;
+    }
+    
+    .homepage-section picture img    {
+        margin-top: .5rem;
+        width: 100%;
+        border-radius: .5rem;
+        box-shadow: 0 0 8px rgb(13, 9, 146);
+    }
+    
+    .homepage-section h2     {
+        margin: 0 0 .5rem 0;
+        padding: 0;
+        color: white;
+    } 
+    
+    
 }
