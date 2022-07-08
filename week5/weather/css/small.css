@@ -548,7 +548,7 @@ form button:hover   {
     margin-top: .5rem;
     width: 100%;
     border-radius: .5rem;
-    box-shadow: 0 0 8px rgb(13, 9, 146);
+    box-shadow: 0 0 5px white;
 }
 
 .homepage-section h2     {
