@@ -38,15 +38,18 @@
             <li><a href="./gallery-7.html">📷Gallery</a></li>
         </ul>
     </nav>
-    <main>
-        <h2>Accurate weather info and news for </h2>
+    <main class="home">
+        <h2>Accurate weather and news for: </h2>
+        <div class="town-sections">
         <section class="preston-container-home homepage-section">
             <picture class="pic">
                 <img src="./images/placeholder.png" data-src="./images/preston-banner-1050.jpg" alt="Preston image">
             </picture>
             <div class="preston-container-home homepage-div">
-                <h2>Preston</h2>
-                <span>Home of Napoleon Dynamite</span>
+                <div>
+                    <h2>Preston</h2>
+                    <span>Home of Napoleon Dynamite</span>
+                </div>
                 <div class="town-detail">
                     <p>Year founded: 1866</p>
                     <p>Population: 5204</p>
@@ -54,15 +57,19 @@
                 </div>
             </div>
         </section>
+
+
         <section class="fish-haven-container-home homepage-section">
             <picture>
                 <source media="(min-width: 32.5em)" srcset="">
-                <img src="./images/placeholder.png" data-src="./images/preston-banner-1050.jpg" alt="Preston image">
+                <img id="fish-haven-img" src="./images/placeholder.png" data-src="./images/preston-banner-1050.jpg" alt="Preston image">
             </picture>
 
             <div class="fish-haven-home homepage-div">
-                <h2>Fish Haven</h2>
-                <span class="town-motto">This is Fisha Haven</span>
+                <div>
+                    <h2>Fish Haven</h2>
+                    <span class="town-motto">This is Fisha Haven</span>
+                </div>
                 <div class="town-detail">
                     <p>Year founded: 1864</p>
                     <p>Population: 501</p>
@@ -76,8 +83,10 @@
                 <img src="./images/placeholder.png" data-src="./images/preston-banner-1050.jpg" alt="Preston image">
             </picture>
             <div class="soda-springs-home homepage-div">
-                <h2>Soda Springs</h2>
-                <span>Historic Oregon Trail Oasis. The Soda is on Us.</span>
+                <div>
+                    <h2>Soda Springs</h2>
+                    <span>Historic Oregon Trail Oasis. The Soda is on Us.</span>
+                </div>
                 <div class="town-detail">
                     <p>Year founded: 1858</p>
                     <p>Population: 2985</p>
@@ -85,6 +94,7 @@
                 </div>
             </div>
         </section>
+    </div>
 
     </main>
     <footer>

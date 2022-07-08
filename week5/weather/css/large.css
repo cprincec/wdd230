@@ -182,4 +182,94 @@
     form button {
         max-width: 28rem;
     }
+
+    .home   {
+        max-width: 960px;
+    }
+
+    .town-sections  {
+        display: flex;
+    }
+
+    .homepage-section   {
+        display: block;
+        margin: .5rem 1rem 3rem 1rem;
+        padding: 0;
+        background: none;
+        font-size: .9rem;
+        background-color: rgb(13, 9, 146);
+        transition: 1s;
+    }
+    
+    .homepage-section:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 12px rgb(4, 4, 65);
+    }
+
+    .homepage-div   {
+        padding: 0 1rem;
+        padding-top: 0;
+        height: 50%;
+        border-left: none;
+        border-radius: 0 0 1rem 1rem;
+        background: none;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap: 0;
+        background: linear-gradient(to bottom, rgb(13, 9, 146) 0%, rgb(13, 9, 146) 50%, rgb(255, 215, 15) 50%, rgb(255, 215, 15) 100%);
+    }
+
+    .homepage-section:nth-child(odd)   {
+        flex-direction: none;
+        border-left: none;
+    }
+
+    .homepage-section:nth-child(odd) .homepage-div  {
+        border-radius: 0 0 1rem 1rem;
+        border-right: 0;
+        border-left: 0;
+        margin: 0;
+    }
+
+    #fish-haven-img {
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .homepage-section:nth-child(odd) picture   {
+        padding: 0;
+    }
+    
+    .homepage-div span  {
+        color: white;
+        padding: .6rem;
+    }
+    
+    .town-detail p    {
+        margin-top: 1rem;
+        font-size: .9rem;
+        line-height: 1;
+    }
+    
+    .homepage-section picture   {
+        max-height: 50%;
+        display: block;
+        padding: 0;
+        margin: 0; 
+    }
+    
+    .homepage-section picture img    {
+        margin-top: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+        box-shadow: none;
+        box-shadow: none;
+    }
+    
+    .homepage-section h2     {
+        margin: 0 0 .5rem 0;
+    } 
 }
