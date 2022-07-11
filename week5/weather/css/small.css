@@ -263,6 +263,11 @@ article a:hover {
     margin-top: 1rem;
 }
 
+.map    {
+    max-height: 230px;
+    width: 80%;
+}
+
 .top-footer   {
     background-color: rgb(13, 9, 146);
     padding: 1rem;
@@ -309,7 +314,8 @@ article a:hover {
     border-radius: 80000rem;
     padding: 0;
     margin-right: 5px; 
-    transition: .5s; 
+    transition: .5s;
+    opacity: .8; 
 }
 
 .social a {
@@ -319,6 +325,7 @@ article a:hover {
 
 .social a:hover img{
     transform: scale(1.2);
+    opacity: 1;
 }
 
 #linkedin   {
