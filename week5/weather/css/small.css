@@ -524,15 +524,17 @@ form button:hover   {
 
 .town-detail    {
     margin-top: 11.8rem;
-    line-height: 1.6;
+    line-height: 2;
     max-width: 250px;
     color: rgb(4, 4, 65)
 }
 
 .homepage-section picture   {
+    height: 160px;
+    width: 100%;
     display: block; 
     position: absolute; 
-    top: 21.5%; 
+    top: 21.5%;
     left: 0; 
 }
 
@@ -547,6 +549,7 @@ form button:hover   {
 .homepage-section picture img    {
     margin-top: .5rem;
     width: 100%;
+    height: 100%;
     border-radius: .5rem;
     box-shadow: 0 0 5px white;
 }

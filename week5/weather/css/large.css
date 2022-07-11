@@ -193,6 +193,7 @@
 
     .homepage-section   {
         display: block;
+        flex: 1 1 100%;
         margin: .5rem 1rem 3rem 1rem;
         padding: 0;
         background: none;
@@ -207,8 +208,7 @@
     }
 
     .homepage-div   {
-        padding: 0 1rem;
-        padding-top: 0;
+        padding: 1rem 0 0 0;
         height: 50%;
         border-left: none;
         border-radius: 0 0 1rem 1rem;
@@ -219,11 +219,13 @@
         justify-content: space-evenly;
         align-items: center;
         row-gap: 0;
-        background: linear-gradient(to bottom, rgb(13, 9, 146) 0%, rgb(13, 9, 146) 50%, rgb(255, 215, 15) 50%, rgb(255, 215, 15) 100%);
+        background: linear-gradient(to bottom, rgb(13, 9, 146) 50%, rgb(255, 215, 15) 50%);
+   
     }
 
     .homepage-section:nth-child(odd)   {
         flex-direction: none;
+        flex: 1 1 100%;
         border-left: none;
     }
 
@@ -246,11 +248,20 @@
         color: white;
         padding: .6rem;
     }
+  
+    .town-detail    {
+        width: 100%;
+        border-radius: 0 0 1rem 1rem;
+        padding-bottom: 1.7rem;
+    }
     
     .town-detail p    {
-        margin-top: 1rem;
         font-size: .9rem;
-        line-height: 1;
+        line-height: 2.2;
+    }
+
+    .town-detail p:nth-child(1) {
+        margin-top: 1rem;
     }
     
     .homepage-section picture   {
@@ -271,5 +282,11 @@
     
     .homepage-section h2     {
         margin: 0 0 .5rem 0;
+        font-size: 1.7rem;
     } 
+
+    .homepage-townname-motto    {
+        padding: 1rem;
+        flex: 1 1 100%;
+    }
 }
