@@ -223,10 +223,9 @@
     .homepage-section   {
         display: flex;
         position: static;
-        max-width: none;
-        margin: 0 auto;
+        max-width: 100%;
         font-weight: 600;
-        margin: 2rem;
+        margin: 1rem;
         border-radius: 1rem;
         box-shadow: 0 0 8px rgb(13, 9, 146);
         background: linear-gradient(to bottom, rgb(13, 9, 146) 0%, rgb(13, 9, 146) 50%, rgb(255, 215, 15) 50%, rgb(255, 215, 15) 100%);
@@ -284,7 +283,7 @@
         margin-top: 1rem;
         line-height: 1.7;
         max-width: none;
-        color: rgb(13, 9, 146)
+        color: rgb(4, 4, 65);
     }
     
     .homepage-section picture   {
