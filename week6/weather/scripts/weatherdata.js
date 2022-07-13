@@ -59,14 +59,14 @@ async function getForecastData(url) {
         //DISPLAY FORECAST DATA.
         for (let i = 0; i < data.list.length; i++ ) {
             if (data.list[i].dt_txt.includes("18:00:00"))   {
-                    temps[day].textContent = data.list[i].main.temp;
+                    temps[day].innerHTML = data.list[i].main.temp + "&deg;F";
                     icons[day].setAttribute("src", "https://openweathermap.org/img/wn/" + data.list[i].weather[0].icon + ".png");
                     day++;
             }
         }
         //DISPLAY FORECAST WEEK DAYS FOR 5 DAYS
         for (let j = 0; j < 5; j++ )  {
-            weekDays[j].textContent = weekDayNames[(dayObject + j) % weekDayNames.length];
+            weekDays[j].innerHTML = weekDayNames[(dayObject + j) % weekDayNames.length];
         }
     }
 }
