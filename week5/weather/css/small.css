@@ -160,11 +160,11 @@ nav {
     background-color: rgb(13, 9, 146);
     color: white;
     font-size: .75rem;
+    font-weight: 900;
 }
 
 .heroSummary h3 {
     color: rgb(255, 215, 15);
-    font-weight: 900;
     margin: .5rem 0;
 }
 
@@ -184,14 +184,12 @@ nav {
     display: block;
 }
 
-.stats p    {
-    justify-self: end;
-    font-weight: 600;
+.stats  {
+    line-height: 1.8;
 }
 
-.stats span {
-    color: whitesmoke;
-    font-weight: 600;
+.stats p    {
+    justify-self: end;
 }
 
 .stats span {
@@ -274,6 +272,10 @@ article a:hover {
     text-align: center;
 }   
 
+footer p    {
+    line-height: 1.7;
+}
+
 #contact-info   {
     margin-top: .5rem;
 }
@@ -300,6 +302,7 @@ article a:hover {
     color: rgb(255, 215, 15);
     background-color: rgb(4, 4, 65);
     box-shadow: 0 0 15px 3px rgb(4, 4, 65);
+    font-weight: 900;
 }
 
 .social {

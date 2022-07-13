@@ -50,11 +50,11 @@
                 <h3 id="h3-stats">Weather Summary</h3>
                 <hr id="hr-stats" />
                 <div class="stats">
-                    <div class="stats-container"><p class="p-stats currently">Currently:&nbsp;</p><div><span id="cover">38</span><span>°F</span><span class="tempState">Cloudy</span></div></div>
-                    <div class="stats-container"><p class="p-stats high">High:&nbsp;</p><div><span id="temp">81</span><span>°F</span></div></div>
+                    <div class="stats-container"><p class="p-stats currently">Currently:&nbsp;</p><span id="tempDesc"></span></div>
+                    <div class="stats-container"><p class="p-stats high">Temperature:&nbsp;</p><div><span id="temp"></span><span>°F</span></div></div>
                     <div class="stats-container"><p class="p-stats chill">Wind Chill:&nbsp;</p><div><span id="windChill"></span><span id="windChillUnit">°F</span></div></div>
                     <div class="stats-container"><p class="p-stats humidity">Humidity:&nbsp;</p><div><span id="humidity">61</span><span>%</span></div></div>
-                    <div class="stats-container"><p class="p-stats speed">Wind Speed:&nbsp;</p><div><span id="windSpeed">7</span><span>mph</span></div></div>
+                    <div class="stats-container"><p class="p-stats speed">Wind Speed:&nbsp;</p><div><span id="windSpeed"></span><span>mph</span></div></div>
                 </div>
             </div>
         </section>
@@ -65,28 +65,28 @@
                 <div class="weatherTable">
                     <div>
                         <span class="day">Wed</span>
-                        <img class="weather cloud" src="./images/cloudicon.png" alt="Cloud">
-                        <span class="temp">87°F</span>
+                        <img class="weather cloud" src="" alt="weather icon">
+                        <span class="temp"></span>
                     </div>
                     <div>
                         <span class="day">Thurs</span>
-                        <img class="weather" src="./images/sunicon.png" alt="Sun">
-                        <span class="temp">75°F</span>
+                        <img class="weather" src="" alt="weather icon">
+                        <span class="temp"></span>
                     </div>
                     <div>
                         <span class="day">Fri</span>
-                        <img class="weather cloud" src="./images/cloudicon.png" alt="Cloud">
-                        <span class="temp">80°F</span>
+                        <img class="weather" src="" alt="weather icon">
+                        <span class="temp"></span>
                     </div>
                     <div>
                         <span class="day">Sat</span>
-                        <img class="weather" src="./images/cloudrainicon.png" alt="Weather">
-                        <span class="temp">68°F</span>
+                        <img class="weather" src="" alt="weather icon">
+                        <span class="temp"></span>
                     </div>
                     <div class="sunday">
                         <span class="day">Sun</span>
-                        <img class="weather" src="./images/cloudrainicon.png" alt="">
-                        <span class="temp">59°F</span>
+                        <img class="weather" src="" alt="weather icon">
+                        <span class="temp"></span>
                     </div>
                 </div>
             </section>
@@ -153,7 +153,7 @@
         </div>
     </footer>
     <script src="./scripts/togglemenu.js"></script>
-    <script src="./scripts/windchill.js"></script>
+    <script src="./scripts/weatherdata.js"></script>
 </body>
 
 </html>
