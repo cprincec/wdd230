@@ -1,5 +1,25 @@
-const weatherApiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a1a44291512a7fa1df8d006b7b784f14&units=imperial";
-const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a1a44291512a7fa1df8d006b7b784f14&units=imperial";
+let weatherApiURL;
+const weatherPath = "https://api.openweathermap.org/data/2.5/weather?appid=a1a44291512a7fa1df8d006b7b784f14&units=imperial&id=";
+let forecastApiURL;
+const forecastPath = "https://api.openweathermap.org/data/2.5/forecast?appid=a1a44291512a7fa1df8d006b7b784f14&units=imperial&id=";
+let townIDs = {
+    "preston": "5604473",
+    "soda springs": "5607916",
+    "fish haven": "5585010"
+}
+
+let townName = document.querySelector("h2").textContent;
+if (townName.includes("Preston"))   {
+    weatherApiURL = weatherPath + townIDs.preston;
+    forecastApiURL = forecastPath + townIDs.preston;
+} else if  (townName.includes("Soda Springs"))  {
+    weatherApiURL = weatherPath + townIDs["soda springs"];
+    forecastApiURL = forecastPath + townIDs["soda springs"];
+} else if (townName.includes("Fish Haven")) {
+    weatherApiURL = weatherPath + townIDs["fish haven"];
+    forecastApiURL = forecastPath + townIDs["fish haven"];
+}
+
 
 function calculateWindChill(temp, windSpeed)    {
     Chill = 35.74 + (0.6215 * temp) - 35.75 * (Math.pow(windSpeed, 0.16)) + 0.4275 * temp * (Math.pow(windSpeed, 0.16));
@@ -10,6 +30,7 @@ async function getWeatherData(url) {
     let response = await fetch(url);
     if (response.ok)    {
         let weatherData = await response.json();
+        
         document.querySelector("#tempDesc").textContent = weatherData.weather[0].description;
         document.querySelector("#temp").textContent = weatherData.main.temp;
         document.querySelector("#humidity").textContent = weatherData.main.humidity;
@@ -54,8 +75,8 @@ let dayObject = new Date().getDay();
 async function getForecastData(url) {
     let response = await fetch(url);
     if (response.ok)    {
-        let data = await response.json();      
-        
+        let data = await response.json(); 
+
         //DISPLAY FORECAST DATA.
         for (let i = 0; i < data.list.length; i++ ) {
             if (data.list[i].dt_txt.includes("18:00:00"))   {
@@ -70,6 +91,8 @@ async function getForecastData(url) {
         }
     }
 }
+
+
 
 getWeatherData(weatherApiURL);
 getForecastData(forecastApiURL);

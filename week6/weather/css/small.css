@@ -161,12 +161,14 @@ nav {
     color: white;
     font-size: .75rem;
     font-weight: 900;
+    border: 1px solid white;
+    box-shadow: 0 0 5px 0 rgb(4, 4, 65);
 }
 
 .heroSummary h3 {
     color: rgb(255, 215, 15);
     margin: .5rem 0;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .heroSummary hr {
@@ -204,7 +206,45 @@ nav {
 
 section {
     color: rgb(4, 4, 65);
+    margin-top: 2rem;
 }
+
+.events h3  {
+    font-size: 1.2rem;
+    color: rgb(255, 215, 15);
+}
+
+.events h4 {
+    color: rgb(13, 9, 146);
+}
+
+.events p   {
+    font-size: .9rem;
+    margin: .5rem 0 0 0;
+    color: rgb(4, 4, 65);
+}
+
+.events-box {
+    text-align: center;
+    margin: .8rem 1rem;
+    padding: 1rem;
+    background-color: rgb(255, 215, 15);
+    border: 1px solid white;
+    box-shadow: 0 0 5px 0 rgb(4, 4, 65);
+}
+
+.events   {
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-align: center;
+    margin: .8rem 1rem;
+    padding: 1rem;
+    background-color: rgb(13, 9, 146);
+    border: 1px solid white;
+    box-shadow: 0 0 5px 0 rgb(4, 4, 65);
+}
+
+
 
 h3 {    
     text-align: center;  
@@ -212,7 +252,7 @@ h3 {
 
 article   {
     border: 1px solid white;
-    margin: 1rem 1rem;
+    margin: 3rem 1rem 1rem 1rem;
     box-shadow: 0 0 5px 0 rgb(4, 4, 65);
     color: rgb(4, 4, 65);
     padding: 1.2rem;

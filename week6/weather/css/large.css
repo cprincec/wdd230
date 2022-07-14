@@ -73,8 +73,14 @@
         margin: 0 auto;
     }
 
-    .weatherSummary {
-        margin: 3rem 0;
+    h3#upcoming-events  {
+        font-size: 1.7rem;
+    }
+
+    .events-container   {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1rem;
     }
 
     .top-footer {
