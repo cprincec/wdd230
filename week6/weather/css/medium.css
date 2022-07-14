@@ -42,14 +42,12 @@
 
 
     .heroSummary    {
-        position: absolute;
-        top: 16%;
-        left: 4%;
+        position: relative;
+        top: 14%;
+        left: 3%;
         box-shadow: 0 0 10px 2px  whitesmoke;
-        font-size: .8rem;
-        line-height: 1.5;
         padding-top: 1rem;
-        border-radius: 3rem 1rem 3rem 1rem;
+        border-radius: 1rem;
         opacity: .95;
     }
     
@@ -57,7 +55,7 @@
         padding: 0;
         margin-top: -.2rem;
         margin-bottom: 5px;
-        font-size: 1.7rem
+        font-size: 1.2rem;
     }
     
     .heroSummary hr {
@@ -65,7 +63,15 @@
     }
 
     .stats span {
-        font-size: 1.1rem;
+        font-size: .9rem;
+    }
+
+    .stats-container p  {
+        font-size: .8rem;
+    }
+
+    .stats-container    {
+        line-height: 1.5;
     }
 
     .stats  {

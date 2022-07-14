@@ -53,7 +53,27 @@
     }
 
     .heroSummary    {
-        top: 27%;
+        top: 22%;
+    }
+    
+    .heroSummary h3 {
+        font-size: 1.4rem;
+    }
+    
+    .heroSummary hr {
+        margin-bottom: 10px;
+    }
+
+    .stats span {
+        font-size: 1.1rem;
+    }
+
+    .stats-container p  {
+        font-size: 1rem;
+    }
+
+    .stats-container    {
+        line-height: 1.7;
     }
 
     article h3 {
