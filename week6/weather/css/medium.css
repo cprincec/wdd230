@@ -42,7 +42,7 @@
 
 
     .heroSummary    {
-        position: relative;
+        position: absolute;
         top: 14%;
         left: 3%;
         box-shadow: 0 0 10px 2px  whitesmoke;
