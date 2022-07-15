@@ -186,6 +186,7 @@
 
     .events   {
         margin: .8rem 1rem;
+        margin-bottom: 2rem;
         padding: 1rem;
     }
 
@@ -348,6 +349,14 @@
         padding: 0;
         color: white;
     } 
-    
-    
+
+    main.wireframe img  {
+        max-width: 300px;
+    }
+
+    .views  {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 1rem;
+    }
 }

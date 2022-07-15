@@ -607,6 +607,63 @@ form button:hover   {
     color: white;
 } 
 
+div.news-box   {
+    display: flex;
+    flex-direction: column;
+    row-gap: .3rem;
+    text-align: left;
+    padding: .8rem;
+}
+
+div.news-box p {
+    line-height: 1.4;
+    color: rgb(4, 4, 65);
+    font-size: .8rem;
+    margin-top: .3rem;
+}
+
+div.news-box a  {
+    font-size: .8rem;
+}
+
+div.news-box a:hover    {
+    color: red;
+}
+
+span.news-source {
+    color: rgb(13, 9, 146);
+    font-size: .7rem;
+    margin-top: .3rem;
+}
+
+p.credit    {
+    font-size: .6rem;
+    font-style: italic;
+}
+
+footer a  {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover  {
+    color: rgb(78, 191, 248);
+}
+
+main.wireframe h4, h5   {
+    color: rgb(4, 4, 65);
+    margin-top: 2rem;
+}
+
+main.wireframe  {
+    text-align: center;
+}
+
+.page   {
+    border: 1px solid rgb(13, 9, 146);
+    margin: 1rem;
+}
+
 
 
 

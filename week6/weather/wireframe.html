@@ -30,7 +30,7 @@
     <nav>
         <ul class="navigation">
             <li><a id="menuButton" href="#" onclick="toggleMenu()"></a></li>
-            <li class="current"><a href="./index.html">🏡Home</a></li>
+            <li><a href="./index.html">🏡Home</a></li>
             <li><a href="./preston.html">🏯Preston</a></li>
             <li><a href="./sodasprings.html">🏩Soda Springs</a></li>
             <li><a href="./fishhaven.html">🏭Fish Haven</a></li>
@@ -38,66 +38,47 @@
             <li><a href="./gallery.html">📷Gallery</a></li>
         </ul>
     </nav>
-    <main class="home">
-        <h2>Accurate weather and news</h2>
-        <div class="town-sections">
-        <section class="preston-container-home homepage-section">
-            <picture class="pic">
-                <img class="img" src="./images/preston-town.jpg" alt="Preston image">
-            </picture>
-            <div class="preston-container-home homepage-div">
-                <div class="homepage-townname-motto">
-                    <h2 class="town-name"></h2>
-                    <span class="town-motto"></span>
+    <main class="wireframe">
+        <div class="page">
+            <h4>Homepage</h4>
+            <div class="views">
+                <div>
+                    <h5>Large View</h5>
+                    <img src="./images/homepage-wireframe-large.jpg" alt="">
                 </div>
-                <div class="town-detail">
-                    <p class="yearFounded"></p>
-                    <p class="population"></p>
-                    <p class="rainfall"></p>
+                <div>
+                    <h5>Medium View</h5>
+                    <img src="./images/homepage-wireframe-medium.jpg" alt="">
                 </div>
             </div>
-        </section>
+        </div>
 
 
-        <section class="fish-haven-container-home homepage-section">
-            <picture>
-                <img class="img" id="fish-haven-img" src="./images/fish.jpg" alt="Fish Haven image">
-            </picture>
+        <div class="page">
+            <h4>Town Page</h4>
+            <div class="views">
 
-            <div class="fish-haven-home homepage-div">
-                <div class="homepage-townname-motto">
-                    <h2 class="town-name"></h2>
-                    <span class="town-motto"></span>
-                </div>
-                <div class="town-detail">
-                    <p class="yearFounded"></p>
-                    <p class="population"></p>
-                    <p class="rainfall"></p>
+                <div>
+                    <h5>Large View</h5>
+                    <img src="./images/townpage-wireframe-large.jpg" alt="">
                 </div>
             </div>
-        </section>
-        <section class="soda-springs-container-home homepage-section">
-            <picture>
-                <img src="./images/soda.jpg" alt="Soda Springs image" class="img">
-            </picture>
-            <div class="soda-springs-home homepage-div">
-                <div class="homepage-townname-motto">
-                    <h2 class="town-name"></h2>
-                    <span class="town-motto"></span>
+        </div>
+
+
+        <div class="page">
+            <h4>Gallery</h4>
+            <div class="views">
+                <div>
+                    <h5>Large View</h5>
+                    <img src="./images/gallery-wireframe-large.jpg" alt="">
                 </div>
-                <div class="town-detail">
-                    <p class="yearFounded"></p>
-                    <p class="population"></p>
-                    <p class="rainfall"></p>
+                <div>
+                    <h5>Medium View</h5>
+                    <img src="./images/gallery-wireframe-medium.jpg" alt="">
                 </div>
             </div>
-        </section>
-    </div>
-
-    <section class="events">
-        <h3 id="upcoming-events">Trending News</h3>
-        <div class="events-container"></div>
-    </section>
+        </div>
 
 
     </main>
@@ -124,8 +105,8 @@
             <p id="updated"></p>
 
             <p class="credit">All weather data is sourced from <a href="openweathermap.org"
-                target="_blank">OpenWeatherMap</a></p>
-        <a href="./wireframe.html">wireframes</a>
+                    target="_blank">OpenWeatherMap</a></p>
+            <a href="./wireframe.html">wireframes</a>
         </div>
     </footer>
     <script src="./scripts/togglemenu.js"></script>
