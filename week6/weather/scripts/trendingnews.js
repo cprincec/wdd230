@@ -1,12 +1,13 @@
 // Get news from Google News API and display it on homepage.
 
-const newsURL = "https://newsapi.org/v2/top-headlines?q=weather&from=2022-07-14&sortBy=popularity&apiKey=bee8f274d7fb432687407e9138af87aa"
+const newsURL = "https://gnews.io/api/v4/top-headlines?q=weather climate cloud&max=9&from=2022-07-14&sortBy=relevance&token=94fb8a3ae10b2e049d013859d9b67694"
 
 
 async function getNewsData() {
     let response = await fetch(newsURL);
     if (response.ok) {
         let data = await response.json();
+        console.log(data);
         displayNews(data);
     } 
 }
@@ -26,7 +27,7 @@ function displayNews(data) {
         eventURL.setAttribute("class", "events-date");
         eventURL.setAttribute("href", article.url);
         eventSource.setAttribute("class", "events-date");
-        eventImg.setAttribute("src", article.urlToImage);
+        eventImg.setAttribute("src", article.image);
 
         eventBox.classList.add("news-box");
         eventSource.classList.add("news-source"); 
