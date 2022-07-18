@@ -1,0 +1,45 @@
+:root  {
+    --h1-ff: 'Cinzel Decorative', 'The Nautigal', cursive;
+    --h2-ff: 'Philosopher', sans-serif;
+    --b-ff: 'Montserrat', sans-serif;
+
+    --primary-clr: #000000;
+    --secondary-clr: rgb(197, 197, 197);
+    --tertiary-clr: #bd0000;
+}
+
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    font-family: var(--b-ff);
+    color: var(--primary-clr);
+    background-color: var(--secondary-clr);
+    line-height: 1.3;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h2,
+h3,
+h4  {
+    color: var(--tertiary-clr);
+    font-family: var(--h2-ff);
+    
+    
+}
+
+
+
+h1 {
+    color: var(--tertiary-clr);
+    text-shadow: 1px 1px var(--secondary-clr);
+    font-family: var(--h1-ff);
+    font-size: 5rem;
+}
+
+header  {
+    background-color: var(--primary-clr);
+}
