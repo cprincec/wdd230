@@ -73,6 +73,7 @@ h1 {
     text-shadow: 1px 1px var(--secondary-clr);
     font-family: var(--h1-ff);
     font-size: var(--fs-h1);
+    font-style: italic;
 }
 
 header, footer  {
@@ -115,7 +116,7 @@ a:not(nav a)   {
     font-style: italic;
 }
 
-a:hover {
+a:hover:not(nav a) {
     color: red;
 }
 
