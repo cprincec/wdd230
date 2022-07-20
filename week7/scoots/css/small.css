@@ -44,7 +44,6 @@ body    {
 
 img {
     max-width: 100%;
-    width: 100%;
     display: block;
 }
 
@@ -136,25 +135,26 @@ header  {
 
 
 .hero   {
-    position: relative;
-    width: 100%;
-    height: 250px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+}
+
+.hero-info  {
+    grid-column: 1/4;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-self: stretch;
 }
 
 .rider  {
-    position: absolute;
-    right: 3%;
-    top: 10%;
+    grid-column: 4/6;
 }
 
-.motto   {
-    position: absolute;
-    top: 24%;
-    left: 8%;
-} 
-
 .motto h2, .motto h3 {
-    margin: -15spx 0;
+    margin: -12px 0;
     text-align: center;
     font-size: var(--fs-h1);
     color: var(--tertiary-clr);
@@ -167,11 +167,16 @@ header  {
     text-shadow: 1px 1px var(--secondary-clr);
 }
 
+.motto  {
+    grid-row: 1/2;
+    align-self: flex-end  ;
+
+}
+
 .action-call    {
-    position: absolute;
-    top: 55%;
-    left: 6%;
-    opacity: .8;
+    grid-row: 2/3;
+    margin-top: 20px;
+    align-self: initial;
 }
 
 .action-call a  {
