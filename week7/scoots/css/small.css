@@ -95,6 +95,10 @@ a   {
     text-decoration: none;
 }
 
+li  {
+    list-style: none;
+}
+
 a:not(.navigation-side a)   {
     color: firebrick;
     font-style: italic;
@@ -317,6 +321,28 @@ div.action-call:hover  {
 
 .card  figcaption   {
     color: var(--tertiary-clr);
+}
+
+
+/**** FOOTER *****/
+
+footer  {
+    color: var(--tertiary-clr);
+}
+footer img  {
+    width: 25px;
+    display: inline;
+    margin-bottom: -5px;
+}
+
+footer span {
+    display: block;
+    margin-bottom: var(--space-sm);
+    font-size: var(--fs-p);
+}
+
+footer h3   {
+    margin-top: var(--space-m);
 }
 
 
