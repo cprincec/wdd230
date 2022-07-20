@@ -5,7 +5,7 @@
     --b-ff: 'Montserrat', sans-serif;
 
     /***** FONT SIZES *****/
-    --fs-h1: 2rem;
+    --fs-h1: 1.8rem;
     --fs-h2: 1.8rem;
     --fs-h3: 1.4rem;
     --fs-h4: 1rem;
@@ -53,7 +53,6 @@ img {
 
 header, footer  {
     background-color: var(--primary-clr);
-    padding: var(--space-sm) var(--space-m);
     box-shadow: 0 0 7px 1px var(--tertiary-clr);
 }
 
@@ -109,6 +108,7 @@ a:hover:not(.navigation-side a) {
 }
 
 header  {
+    padding: .3rem var(--space-m);
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: end;
@@ -127,7 +127,7 @@ header  {
 }
 
 .logo-container   {
-    width: 55px;
+    width: 50px;
 }
 
 .navigation {
@@ -155,7 +155,8 @@ header  {
 .social-icons-top img   {
     width: 30px;
     background-color: var(--secondary-clr);
-    margin: .2rem;
+    margin-right: .4rem;
+    margin-bottom: .4rem;
     border-radius: 50%;
 }
 
@@ -323,6 +324,17 @@ div.action-call:hover  {
     color: var(--tertiary-clr);
 }
 
+/***** WEATHER ******/
+.all-weather    {
+    background-color: var(--tertiary-clr);
+    padding: var(--space-m);
+    margin: var(--space-m);
+}
+
+.white-h3   {
+    text-align: center;
+}
+
 
 /**** FOOTER *****/
 
@@ -358,7 +370,7 @@ div.action-call:hover  {
 }
 
 .bottom-footer   {
-    padding: var(--space-lrg);
+    padding: var(--space-m);
     text-align: center;
     box-shadow: 0 0 8px var(--tertiary-clr);
     color: var(--secondary-clr);
@@ -367,6 +379,14 @@ div.action-call:hover  {
 
 footer  {
     padding: 0;
+}
+
+.credit {
+    font-size: .6rem;
+}
+
+.wireframe  {
+    font-size: .9rem;
 }
 
 
