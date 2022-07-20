@@ -176,6 +176,7 @@ header  {
 .action-call    {
     grid-row: 2/3;
     margin-top: 20px;
+    margin-left: .5rem;
     align-self: initial;
 }
 
