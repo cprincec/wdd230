@@ -149,7 +149,7 @@ header  {
 
 .motto   {
     position: absolute;
-    top: 20%;
+    top: 24%;
     left: 8%;
 } 
 
@@ -169,7 +169,7 @@ header  {
 
 .action-call    {
     position: absolute;
-    top: 58%;
+    top: 55%;
     left: 6%;
     opacity: .8;
 }
