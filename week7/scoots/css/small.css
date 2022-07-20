@@ -334,6 +334,7 @@ div.action-call:hover  {
     width: 25px;
     display: inline;
     margin-bottom: -5px;
+    transition: .8s;
 }
 
 #top-footer .social-icons-top img:hover   {
