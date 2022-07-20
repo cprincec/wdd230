@@ -155,7 +155,7 @@ header  {
 .social-icons-top img   {
     width: 30px;
     background-color: var(--secondary-clr);
-    margin: .1rem;
+    margin: .2rem;
     border-radius: 50%;
 }
 
@@ -326,23 +326,46 @@ div.action-call:hover  {
 
 /**** FOOTER *****/
 
-footer  {
+#top-footer  {
     color: var(--tertiary-clr);
+    padding: var(--space-m);
 }
-footer img  {
+#top-footer img  {
     width: 25px;
     display: inline;
     margin-bottom: -5px;
 }
 
-footer span {
+#top-footer .social-icons-top img:hover   {
+    border: 2px solid var(--secondary-clr);
+    transform: scale(1.3);
+}
+
+#top-footer span {
     display: block;
+    margin-top: var(--space-sm);
     margin-bottom: var(--space-sm);
     font-size: var(--fs-p);
 }
 
-footer h3   {
+#top-footer h3   {
     margin-top: var(--space-m);
+}
+
+#top-footer a   {
+    font-style: normal;
+}
+
+.bottom-footer   {
+    padding: var(--space-lrg);
+    text-align: center;
+    box-shadow: 0 0 8px var(--tertiary-clr);
+    color: var(--secondary-clr);
+    font-weight: 900;
+}
+
+footer  {
+    padding: 0;
 }
 
 
