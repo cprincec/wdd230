@@ -144,7 +144,15 @@ header  {
 }
 
 .social-icons-top   {
-    display: none;
+    display: flex;
+    margin-top: .5rem;
+}
+
+.social-icons-top img   {
+    width: 30px;
+    background-color: var(--secondary-clr);
+    margin: .1rem;
+    border-radius: 50%;
 }
 
 .navigation li{
@@ -193,7 +201,7 @@ nav, ul {
     border: none;
 }
 
-.navigation-side li:hover   {
+.navigation-side li:not(.side-bar-contact):hover   {
     background-color: var(--tertiary-clr);
     border-left: 4px solid var(--secondary-clr);
     border-right: 4px solid var(--secondary-clr);
