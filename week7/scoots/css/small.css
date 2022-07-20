@@ -50,7 +50,7 @@ img {
 
 header, footer  {
     background-color: var(--primary-clr);
-    padding: var(--space-m);
+    padding: var(--space-sm) var(--space-m);
 }
 
 h2, h3, h4  {
@@ -149,7 +149,7 @@ header  {
 
 .motto   {
     position: absolute;
-    top: 16%;
+    top: 20%;
     left: 8%;
 } 
 
@@ -169,15 +169,15 @@ header  {
 
 .action-call    {
     position: absolute;
-    top: 60%;
-    left: 8%;
+    top: 58%;
+    left: 6%;
     opacity: .8;
 }
 
 .action-call a  {
     padding: var(--space-sm) var(--space-m);
     color: var(--secondary-clr);
-    font-size: var(--fs-h4);
+    font-size: var(--fs-p);
     font-weight: 900;
     border-radius: 4px;
     transition: 1s;
@@ -196,7 +196,7 @@ header  {
 .all-rentals    {
     background-color: var(--primary-clr);
     opacity: .9;
-    padding: var(--space-lrg);
+    padding: var(--space-lrg) 0;
 }
 
 .all-rentals h2 {
@@ -217,7 +217,7 @@ header  {
     background-color: var(--secondary-clr);
     padding: var(--space-m);
     font-weight: 600;
-    margin: var(--space-lrg) 1rem;
+    margin: var(--space-m);
     box-shadow: 0 0 10px var(--secondary-clr);
 }
 
