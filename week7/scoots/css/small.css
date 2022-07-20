@@ -154,7 +154,7 @@ header  {
 } 
 
 .motto h2, .motto h3 {
-    margin: -18px 0;
+    margin: -15spx 0;
     text-align: center;
     font-size: var(--fs-h1);
     color: var(--tertiary-clr);
