@@ -109,6 +109,11 @@ header  {
     grid-template-columns: 1fr 1fr;
     justify-content: end;
     align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
 
 .logo-accessories   {
@@ -159,8 +164,8 @@ header  {
     font-weight: 900;
 }
 
-nav, ul, li {
-    transition: .5s ease-in;
+nav, ul {
+    transition: 1s ease-in;
 }
 
 .navigation-side    {
@@ -168,16 +173,13 @@ nav, ul, li {
     text-align: center;
     animation: slide 1.5s;
     background-color: var(--primary-clr);
-    transition: animation 8s ease-in;
 }
 
-
-
 @keyframes  slide {
-    0%    {
+    from   {
         transform: translateX(100%);
     }
-    100%   {
+    to   {
         transform: translateX(0);
     }
 }
@@ -208,7 +210,7 @@ nav, ul, li {
     justify-content: center;
     align-items: center;
     padding: 2rem 0 2rem .5rem;
-    transition: .5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .hero-info  {
