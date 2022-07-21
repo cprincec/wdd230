@@ -364,7 +364,7 @@ div.action-call:hover  {
 }
 
 div.vertical   {
-    min-height: 1px;
+    min-height: 220px;
     width: 1px;
     background-color: var(--secondary-clr);
     align-self: initial;
