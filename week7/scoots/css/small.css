@@ -336,7 +336,7 @@ div.action-call:hover  {
 }
 
 .all-weather p, .all-weather span  {
-    font-size: var(--fs-h3);
+    font-size: var(--fs-p);
     color: var(--secondary-clr);
     font-weight: 900;
 }
