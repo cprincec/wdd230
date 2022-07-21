@@ -46,6 +46,7 @@ async function getForecast(url) {
 function showWeather(weatherObject)  {
     document.querySelector(".white-h3").textContent = weatherObject.name + " " + "Weather";
     document.querySelector(".t-temp-icon").setAttribute("src", "https://openweathermap.org/img/wn/" + weatherObject.weather[0].icon + ".png");
+    document.querySelector(".t-temp-icon").style.marginLeft = "-10px";
     document.querySelector(".t-desc").textContent = weatherObject.weather[0].description;
     document.querySelector(".t-temp").innerHTML = `${weatherObject.main.temp}&deg;F`;
     document.querySelector(".humidity").innerHTML = `Humidity: ${weatherObject.main.humidity}&deg;F`;
