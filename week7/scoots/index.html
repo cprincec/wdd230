@@ -143,21 +143,29 @@
             </div>
         </div>
         <section class="all-weather">
-            <h3 class="white-h3">Cozumel weather</h3>
+            <h3 class="white-h3"></h3>
             <hr>
             <br>
-            <section>
-                <h4>Today</h4>
-                <span class="today-weather">
+            <div class="weather-sections">
+                <section class="today">
+                    <h4>Today</h4>
+                    <div class="today-weather">
+                        <div class="today-weather-icon">
+                            <img class="t-temp-icon" src="" alt="temp icon">
+                            <h3 class="t-temp"></h3>
+                        </div>
+                        <p class="t-desc margin-left"></p>
+                        <span class="humidity"></span>
+                    </div>
+                </section>
+                <div class="vertical"></div>
+                <section class="five-day-section">
+                    <h4>5-day Forecast</h4>
+                    <div class="forecast-container">
 
-                </span>
-            </section>
-            <section>
-                <h4>5-day Forecast</h4>
-                <div>
-
-                </div>
-            </section>
+                    </div>
+                </section>
+            </div>
         </section>
     </main>
     <footer>
@@ -172,10 +180,10 @@
                     <a href="https://web.facebook.com/" target="_blank" class="facebook-top-container">
                         <img src="./images/facebook.gif" alt="facebook-icon">
                     </a>
-                    <a  href="https://https://twitter.com/" target="_blank" class="twitter-top-container">
+                    <a href="https://https://twitter.com/" target="_blank" class="twitter-top-container">
                         <img src="./images/twitter.gif" alt="twitter-icon">
                     </a>
-                    <a  href="https://https://www.instagram.com/" target="_blank" class="instagram-top-container">
+                    <a href="https://https://www.instagram.com/" target="_blank" class="instagram-top-container">
                         <img src="./images/instagram.gif" alt="instagram-icon">
                     </a>
                 </div>
@@ -212,10 +220,12 @@
             <p id="updated"></p>
             <p class="credit">All weather data is sourced from <a href="https://openweathermap.org"
                     target="_blank">OpenWeatherMap</a></p>
-            <a class="wireframe" href="./attributions.html">Attributions</a> | <a class="wireframe" href="./wireframe.html">Wireframes</a>
+            <a class="wireframe" href="./attributions.html">Attributions</a> | <a class="wireframe"
+                href="./wireframe.html">Wireframes</a>
         </div>
     </footer>
     <script src="./scripts/menu.js"></script>
+    <script src="./scripts/weather.js"></script>
 </body>
 
 </html>

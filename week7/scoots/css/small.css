@@ -120,6 +120,10 @@ header  {
     z-index: 999;
 }
 
+.margin-left    {
+    margin-left: var(--space-sm);
+}
+
 .logo-accessories   {
     display: grid;
     grid-template-columns: 70px 1fr;
@@ -331,11 +335,41 @@ div.action-call:hover  {
     margin: var(--space-m);
 }
 
-.white-h3   {
-    text-align: center;
+.all-weather p, .all-weather span  {
+    font-size: var(--fs-h3);
+    color: var(--secondary-clr);
+    font-weight: 900;
 }
 
+.white-h3   {
+    text-align: center;
+    margin: var(--space-sm) 0;
+}
 
+.today {
+    flex: 1 1 auto;
+}
+
+.today-weather-icon {
+    display: flex;
+    align-items: center;
+}
+
+.weather-sections {
+    display: flex;
+}
+
+.five-day-section   {
+    flex: 1 1 auto;
+}
+
+div.vertical   {
+    min-height: 250px;
+    width: 1px;
+    background-color: var(--secondary-clr);
+    align-self: center;
+    margin-right: var(--space-m);
+}
 /**** FOOTER *****/
 
 #top-footer  {
