@@ -268,12 +268,6 @@ ul li.active a:hover    {
     align-self: stretch;
 }
 
-.rider  {
-    grid-column: 4/9;
-    grid-row: 1/2;
-    justify-self: center;
-}
-
 .motto h2, .motto h3 {
     margin: 0 0 -20px 0;
     text-align: center;
@@ -296,8 +290,8 @@ ul li.active a:hover    {
 
 .action-call    {
     grid-row: 2/3;
-    margin-top: 10px;
-    align-self: initial;
+    margin-top: 5px;
+    align-self: center;
     z-index: 1;
 }
 
@@ -360,12 +354,12 @@ div.action-call:hover  {
 /***** WEATHER ******/
 .all-weather    {
     background-color: var(--tertiary-clr);
-    padding: var(--space-m);
+    padding: var(--space-m) var(--space-sm);
     margin: var(--space-m);
 }
 
 .all-weather p, .all-weather span  {
-    font-size: .7rem;
+    font-size: .6rem;
     color: var(--secondary-clr);
     font-weight: 900;
 }
@@ -404,7 +398,7 @@ div.vertical   {
 
 #top-footer  {
     color: var(--tertiary-clr);
-    padding: var(--space-m);
+    padding: var(--space-m) var(--space-m) var(--space-lrg) var(--space-m);
     font-weight: 700;
 }
 #top-footer img  {
@@ -430,9 +424,25 @@ div.vertical   {
     margin-top: var(--space-m);
 }
 
+
+#top-footer span {
+    margin-top: .2rem;
+}
+
+
+#top-footer h4 {
+    margin-top: var(--space-m);
+}
+
+#top-footer h4.address  {
+    margin-top: 0;
+}
+
 #top-footer a   {
     font-style: normal;
 }
+
+
 
 .bottom-footer   {
     padding: var(--space-m);
@@ -443,7 +453,6 @@ div.vertical   {
 }
 
 footer  {
-    padding: 0;
     font-weight: 400;
 }
 
