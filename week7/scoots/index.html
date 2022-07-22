@@ -11,9 +11,10 @@
         href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat:wght@400&family=Philosopher&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/large.css">
-    <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+
 </head>
 
 <body>
@@ -29,7 +30,7 @@
                 <li id="menu">
                     <a onclick="showSideNav()" class="menu-button-a" href="#"></a>
                 </li>
-                <li><a class="active" href="./index.html">Home</a></li>
+                <li class="active"><a href="./index.html">Home</a></li>
                 <li><a href="./index.html">Rentals</a></li>
                 <li><a href="./index.html">Reservations</a></li>
                 <li><a href="./index.html">Tours</a></li>
@@ -37,7 +38,7 @@
             </ul>
         </nav>
         <ul class="nav-two">
-            <li><a class="active" href="./index.html">Home</a></li>
+            <li class="active"><a href="./index.html">Home</a></li>
             <li><a href="./index.html">Rentals</a></li>
             <li><a href="./index.html">Reservations</a></li>
             <li><a href="./index.html">Tours</a></li>
@@ -59,7 +60,19 @@
 
     </header>
     <main>
+        <div class="social-icons-top fixed-social">
+            <picture class="facebook-top-container">
+                <img src="./images/facebook.gif" alt="facebook-icon">
+            </picture>
+            <picture class="twitter-top-container">
+                <img src="./images/twitter.gif" alt="twitter-icon">
+            </picture>
+            <picture class="instagram-top-container">
+                <img src="./images/instagram.gif" alt="instagram-icon">
+            </picture>
+        </div>
         <div class="hero">
+            <img class="background" src="./images/scooter-adventure.gif" alt="">
             <div class="hero-info">
                 <div class="motto">
                     <h2>Scoot</h2>
@@ -70,47 +83,47 @@
                     <a href="#">Get a Scooter</a>
                 </div>
             </div>
-            <picture class="rider">
-                <img src="./images/scooter1.gif" alt="Scooter rider">
-            </picture>
         </div>
+        
         <div class="all-rentals">
             <br>
-            <br>
             <h2>Our Rentals</h2>
-            <div>
+            
+            <div class="our-rentals">
                 <div class="honda-motor-scooters">
                     <hr class="top-hr">
                     <h3>Honda Motor Scooters</h3>
                     <hr>
-                    <div class="card">
-                        <figure>
-                            <img src="./images/metropolitan.webp" alt="Metropolitan">
-                        </figure>
-                        <figcaption>Honda Metropolitan (49cc)</figcaption>
-                        <span>Number of Persons: 1</span>
+                    <div class="type">
+                        <div class="card">
+                            <figure>
+                                <img src="./images/metropolitan.webp" alt="Metropolitan">
+                            </figure>
+                            <figcaption>Honda Metropolitan (49cc)</figcaption>
+                            <span>Number of Persons: 1</span>
+                        </div>
+                        <div class="card">
+                            <figure>
+                                <img src="./images/honda-dio-110-in-sports-red.jpg" alt="Metropolitan">
+                            </figure>
+                            <figcaption>Honda Dio (110cc)</figcaption>
+                            <span>Number of Persons: 2</span>
+                        </div>
+                        <div class="card">
+                            <figure>
+                                <img src="./images/honda-pcx150.webp" alt="Metropolitan">
+                            </figure>
+                            <figcaption>Honda PCX150 (149cc)</figcaption>
+                            <span>Number of Persons: 2</span>
+                        </div>
                     </div>
-                    <div class="card">
-                        <figure>
-                            <img src="./images/honda-dio-110-in-sports-red.jpg" alt="Metropolitan">
-                        </figure>
-                        <figcaption>Honda Dio (110cc)</figcaption>
-                        <span>Number of Persons: 2</span>
-                    </div>
-                    <div class="card">
-                        <figure>
-                            <img src="./images/honda-pcx150.webp" alt="Metropolitan">
-                        </figure>
-                        <figcaption>Honda PCX150 (149cc)</figcaption>
-                        <span>Number of Persons: 2</span>
-                    </div>
-
                 </div>
                 <div class="honda-motor-scooters">
                     <br>
                     <hr class="top-hr">
                     <h3>ATV Side-by-Side</h3>
                     <hr>
+                    <div class="type">
                     <div class="card">
                         <figure>
                             <img src="./images/honda-pioneer-1000-olive-650x380.webp" alt="Metropolitan">
@@ -119,11 +132,13 @@
 
                     </div>
                 </div>
+                </div>
                 <div class="honda-motor-scooters">
                     <br>
                     <hr class="top-hr">
                     <h3>Jeep</h3>
                     <hr>
+                    <div class="type">
                     <div class="card">
                         <figure>
                             <img src="./images/4-door-wrangler.webp" alt="Metropolitan">
@@ -138,6 +153,7 @@
                         <figcaption>2-door Jeep Wrangler—open air—manual</figcaption>
                         <span>Number of Persons: 4</span>
                     </div>
+                </div>
                 </div>
 
             </div>
@@ -171,12 +187,12 @@
     <footer>
         <div id="top-footer">
             <section>
-                <h3>Contact</h3>
-                <h4>Address:</h4>
+                <h3>Contact Us</h3>
+                <h4 class="address">Address</h4>
                 <span><img src="./images/location.gif" alt="location">Playa del Carmen-Cozumel</span>
                 <span><img src="./images/location.gif" alt="location">Terminal Puerta Maya</span>
-                <h4>Social Media</h4>
-                <div class="social-icons-top">
+                <h4 class="social-h4">Social Media</h4>
+                <div class="social-icons-top social-bottom">
                     <a href="https://web.facebook.com/" target="_blank" class="facebook-top-container">
                         <img src="./images/facebook.gif" alt="facebook-icon">
                     </a>
@@ -187,7 +203,9 @@
                         <img src="./images/instagram.gif" alt="instagram-icon">
                     </a>
                 </div>
+                <h4>E-mail</h4>
                 <span><img src="./images/gmail.png" alt="email">&nbsp;&nbsp;scoots@gmail.com</span>
+                <h4>Phone</h4>
                 <span><img src="./images/missed-call.gif" alt="call">&nbsp;&nbsp;+2348135061764</span>
 
             </section>

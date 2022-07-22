@@ -151,6 +151,15 @@ header  {
     font-size: var(--fs-h2);
 }
 
+div.fixed-social   {
+    display: none;
+}
+
+ul li a.active  {
+    color: var(--primary-clr);
+    font-weight: 900;
+}
+
 .social-icons-top   {
     display: flex;
     margin-top: .5rem;
@@ -210,16 +219,36 @@ nav, ul {
     border: none;
 }
 
-.navigation-side li:not(.side-bar-contact):hover   {
+.navigation-side li:not(.side-bar-contact, ul li.active a):hover   {
     background-color: var(--tertiary-clr);
     border-left: 4px solid var(--secondary-clr);
     border-right: 4px solid var(--secondary-clr);
+}
+
+ul li.active a  {
+    color: var(--tertiary-clr);
+    font-weight: 900;
+}
+
+ul li.active a:hover    {
+    color: var(--primary-clr);
 }
 
 #menu  {
     display: inline;
     justify-self: right;
 }
+
+.background {
+    position: fixed;
+    z-index: -9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 80%;
+    width: 100%;
+    opacity: .3;
+} 
 
 .hero   {
     display: grid;
@@ -317,7 +346,7 @@ div.action-call:hover  {
     padding: var(--space-m);
     font-weight: 600;
     margin: var(--space-m);
-    box-shadow: 0 0 10px var(--secondary-clr);
+    border-radius: .5rem;
 }
 
 .card figure   {
@@ -336,7 +365,7 @@ div.action-call:hover  {
 }
 
 .all-weather p, .all-weather span  {
-    font-size: .6rem;
+    font-size: .7rem;
     color: var(--secondary-clr);
     font-weight: 900;
 }
@@ -356,7 +385,9 @@ div.action-call:hover  {
 }
 
 .weather-sections {
-    display: flex;
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    justify-items: center;
 }
 
 .five-day-section   {
@@ -364,17 +395,17 @@ div.action-call:hover  {
 }
 
 div.vertical   {
-    min-height: 220px;
+    align-self: center;
+    height: 230px;
     width: 1px;
     background-color: var(--secondary-clr);
-    align-self: initial;
-    margin-right: var(--space-m);
 }
 /**** FOOTER *****/
 
 #top-footer  {
     color: var(--tertiary-clr);
     padding: var(--space-m);
+    font-weight: 700;
 }
 #top-footer img  {
     width: 25px;
