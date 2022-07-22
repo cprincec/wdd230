@@ -355,7 +355,7 @@ div.action-call:hover  {
 .all-weather    {
     background-color: var(--tertiary-clr);
     padding: var(--space-m) var(--space-sm);
-    margin: var(--space-m);
+    margin: 4rem var(--space-m);
 }
 
 .all-weather p, .all-weather span  {

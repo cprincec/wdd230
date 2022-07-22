@@ -51,15 +51,15 @@
         color: var(--secondary-clr);
         border-left: 1px solid var(--secondary-clr);
         border-right: 1px solid var(--secondary-clr);
-        border-top: 5px solid var(--primary-clr);
-        border-bottom: 5px solid var(--primary-clr);
+        border-top: 7px solid var(--primary-clr);
+        border-bottom: 7px solid var(--primary-clr);
         text-align: center;
     }
 
     .navigation li:hover:not(ul li.active)   {
         background-color: var(--tertiary-clr);
-        border-top: 5px solid var(--tertiary-clr);
-        border-bottom: 5px solid var(--tertiary-clr);
+        border-top: 7px solid var(--tertiary-clr);
+        border-bottom: 7px solid var(--tertiary-clr);
     }
     
     ul.navigation a   {
@@ -119,8 +119,6 @@
 
     section.today   {
         width: 250px;
-    }
-
-       
+    }      
 
 }
