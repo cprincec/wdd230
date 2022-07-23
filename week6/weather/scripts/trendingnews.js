@@ -1,6 +1,6 @@
 // Get news from Google News API and display it on homepage.
 
-const newsURL = "https://gnews.io/api/v4/top-headlines?q=weather climate cloud&max=9&from=2022-07-14&sortBy=relevance&token=94fb8a3ae10b2e049d013859d9b67694"
+const newsURL = "https://gnews.io/api/v4/top-headlines?q=weather climate cloud&max=6&from=2022-07-14&sortBy=relevance&token=94fb8a3ae10b2e049d013859d9b67694"
 
 
 async function getNewsData() {

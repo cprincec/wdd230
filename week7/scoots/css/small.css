@@ -541,7 +541,7 @@ table th  {
 }
 
 td, th  {
-    padding: var(--space-sm) .2rem;
+    padding: .2rem;
 }
 
 
