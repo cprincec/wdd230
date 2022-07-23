@@ -529,6 +529,7 @@ table   {
     color: white;
     margin: auto;
     font-weight: 100;
+    text-align: center;
 }
 
 table, th, td  {
@@ -542,6 +543,10 @@ table th  {
 
 td, th  {
     padding: .2rem;
+}
+
+td.table-veh-name   {
+    text-align: left;
 }
 
 
