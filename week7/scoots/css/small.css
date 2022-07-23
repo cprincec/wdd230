@@ -514,6 +514,12 @@ div#hero   {
     display: block;
 }
 
+.card-reservation, .card-price  {
+    align-self: baseline;
+    padding-bottom: var(--space-sm);
+   
+}
+
 .price-table    {
     background-color: var(--tertiary-clr);
     padding: var(--space-sm);
@@ -547,6 +553,23 @@ td, th  {
 
 td.table-veh-name   {
     text-align: left;
+}
+
+.rental-info li {
+    list-style: square;
+    margin: 1rem;
+}
+
+.rental-info    {
+    margin: var(--space-m);
+    padding: var(--space-m);
+    box-shadow: 0 0 12px -5px var(--primary-clr);
+    border-radius: 1rem;
+}
+
+.inverse-h3 {
+    color: var(--tertiary-clr);
+    text-align: center;
 }
 
 

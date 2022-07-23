@@ -25,7 +25,7 @@
     }
 
     header  {
-        padding: .5rem 1rem;
+        padding: 0 1rem;
     }
     .logo-container   {
         width: 60px;
@@ -106,10 +106,6 @@
     .action-call    {
         align-self: center;
         margin-top: -100px;
-    }
-
-    .type    {
-        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .all-rentals    {
