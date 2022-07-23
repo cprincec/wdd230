@@ -340,7 +340,6 @@ div.action-call:hover  {
     padding: var(--space-m);
     font-weight: 600;
     margin: var(--space-m);
-    border-radius: .5rem;
 }
 
 .card figure   {
@@ -463,6 +462,93 @@ footer  {
 .wireframe  {
     font-size: .9rem;
 }
+
+div#hero   {
+   background-image: url(../images/rentals-hero.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+   background-attachment: scroll;
+   min-height: 30vh;
+}
+
+
+/***** Rentals Page ****/
+.card-type-container span   {
+    display: block;
+}   
+
+.card-walk-in {
+    margin-top: var(--space-sm);
+}
+
+.card-type-container    {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid var(--tertiary-clr);
+}
+
+.card-prices    {
+    text-align: center;
+    margin-top: var(--space-sm);
+    border: 1px solid var(--tertiary-clr);
+
+}
+
+.c-rental-type   {
+    color: var(--tertiary-clr);
+}
+
+.card-vertical  {
+    background-color: var(--tertiary-clr);
+    width: 1px;
+    height: 100%;
+}
+
+.card-desc-container span  {
+    line-height: 1.2;
+    font-size: .6rem;
+    display: block;
+}
+
+.price-table    {
+    background-color: var(--tertiary-clr);
+    padding: var(--space-sm);
+    margin: var(--space-sm);
+}
+
+.price-table h3 {
+    text-align: center;
+}
+
+table   {
+    font-size: 0.6rem;
+    color: white;
+    margin: auto;
+    font-weight: 100;
+}
+
+table, th, td  {
+    border: 2px solid var(--secondary-clr);
+    border-collapse: collapse;
+}
+
+table th  {
+    font-weight: 900;
+}
+
+td, th  {
+    padding: var(--space-sm) .2rem;
+}
+
+
+
+
+
+
 
 
 

@@ -2,13 +2,13 @@ const weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=a1a442
 const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?appid=a1a44291512a7fa1df8d006b7b784f14&units=imperial&id=3530103";
 
 const dayNames = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
+    "Sun",
+    "Mon",
+    "Tues",
+    "Wed",
+    "Thurs",
+    "Fri",
+    "Sat"
 ];
 const monthNames = [
     "January",

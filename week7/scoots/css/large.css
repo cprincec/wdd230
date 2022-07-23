@@ -66,7 +66,7 @@
         color: var(--secondary-clr);
         text-decoration: none;
         display: block;
-        padding: var(--space-sm);
+        padding: .5rem;
         font-style: normal;
         align-self: center;
         margin: auto;
@@ -87,6 +87,11 @@
     .hero   {
         min-height: 560px;
     }
+
+    div#hero   {
+        min-height: 70vh;
+        max-height: 300px;
+     }
 
     .motto h2, .motto h3 {
         margin: 0 0 -30px 0;
