@@ -342,8 +342,8 @@ div.action-call:hover  {
     margin: var(--space-m);
 }
 
-.card figure   {
-    margin-bottom: var(--space-m);
+.card figcaption   {
+    margin-top: var(--space-sm);
 }
 
 .card  figcaption   {
