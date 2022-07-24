@@ -463,16 +463,6 @@ footer  {
     font-size: .9rem;
 }
 
-div#hero   {
-   background-image: url(../images/rentals-hero.jpg);
-   background-position: center center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   
-   background-attachment: scroll;
-   min-height: 30vh;
-}
-
 
 /***** Rentals Page ****/
 .card-type-container span   {

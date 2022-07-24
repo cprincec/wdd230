@@ -1,3 +1,13 @@
+div#hero   {
+    background-image: url(../images/rentals-hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-attachment: scroll;
+    min-height: 30vh;
+ }
+
 .type   {
     display: block;
 }
@@ -31,6 +41,11 @@
 
 
 @media (min-width:32.5em) {
+
+    div#hero   {
+        min-height: 50vh;
+     }
+
     .card   {
         display: grid;
         grid-template-columns: 500px 1fr;
@@ -56,6 +71,12 @@
 }
 
 @media (min-width:64em)   {
+
+    div#hero   {
+        min-height: 70vh;
+        max-height: 300px;
+     }
+     
     .info-container {
         display: flex;
         align-items: center;
