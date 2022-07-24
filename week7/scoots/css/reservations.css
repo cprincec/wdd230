@@ -141,6 +141,13 @@ input[type="radio"] {
     list-style: square;
 }
 
+h2.confirmation-h2    {
+    color: var(--tertiary-clr);
+    margin: 2rem 0;
+    text-align: center;
+    width: 100%;
+}
+
 
 
 @media (min-width:32.5em)   {
