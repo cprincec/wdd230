@@ -392,7 +392,7 @@ footer p    {
     height: auto;
 }
 
-#gallery picture    {
+#gallery figure    {
     border-radius: 1rem 1rem 0 0;
     width: 100%;
 }
