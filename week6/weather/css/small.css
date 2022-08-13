@@ -695,18 +695,19 @@ button#close-btn {
     align-items: center;
     width: 25px;
     height: 25px;
-    color: red;
+    color: white;
     border: 1px solid red;
     font-weight: 900;
-    background-color: white;
+    background-color: red;
     position: absolute;
     top: 10px;
     right: 15px;
+    cursor: pointer;
 }
 
 button#close-btn:hover  {
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: red;
 }
 
 #user-weather-info  {

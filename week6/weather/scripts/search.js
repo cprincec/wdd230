@@ -12,10 +12,10 @@ async function getweather() {
 }
 
 function search(data) {
-    
     document.querySelector("#city").value = "";
     document.querySelector("#user-weather-info").textContent = "";
     let container = document.querySelector("#user-weather-info");
+    container.style.display = "block";
     container.style.border = "2px solid grey";
     container.style.boxShadow = "0 0 5px grey";
     let temperature = data.main.temp;
