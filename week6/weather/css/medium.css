@@ -359,4 +359,8 @@
         justify-content: space-evenly;
         margin-bottom: 1rem;
     }
+
+    #searchArea {
+        max-width: 400px;
+    }
 }

@@ -34,70 +34,76 @@
             <li><a href="./preston.html">🏯Preston</a></li>
             <li><a href="./sodasprings.html">🏩Soda Springs</a></li>
             <li><a href="./fishhaven.html">🏭Fish Haven</a></li>
-            <li><a href="./stormcenter.html">Storm Center</a></li>
+            <li><a href="./stormcenter.html">🗼Storm Center</a></li>
             <li><a href="./gallery.html">📷Gallery</a></li>
         </ul>
     </nav>
     <main class="home">
         <h2>Accurate weather and news</h2>
+        <section id="searchArea">
+            <h4>Search your city's current weather</h3>
+            <input type="text" name="input" id="city">
+            <button id="searchButton">Search</button>
+            <div id="user-weather-info"></div>
+        </section>
         <div class="town-sections">
-        <section class="preston-container-home homepage-section">
-            <picture class="pic">
-                <img class="img" src="./images/preston-town.jpg" alt="Preston image">
-            </picture>
-            <div class="preston-container-home homepage-div">
-                <div class="homepage-townname-motto">
-                    <h2 class="town-name"></h2>
-                    <span class="town-motto"></span>
+            <section class="preston-container-home homepage-section">
+                <picture class="pic">
+                    <img class="img" src="./images/preston-town.jpg" alt="Preston image">
+                </picture>
+                <div class="preston-container-home homepage-div">
+                    <div class="homepage-townname-motto">
+                        <h2 class="town-name"></h2>
+                        <span class="town-motto"></span>
+                    </div>
+                    <div class="town-detail">
+                        <p class="yearFounded"></p>
+                        <p class="population"></p>
+                        <p class="rainfall"></p>
+                    </div>
                 </div>
-                <div class="town-detail">
-                    <p class="yearFounded"></p>
-                    <p class="population"></p>
-                    <p class="rainfall"></p>
+            </section>
+
+
+            <section class="fish-haven-container-home homepage-section">
+                <picture>
+                    <img class="img" id="fish-haven-img" src="./images/fish.jpg" alt="Fish Haven image">
+                </picture>
+
+                <div class="fish-haven-home homepage-div">
+                    <div class="homepage-townname-motto">
+                        <h2 class="town-name"></h2>
+                        <span class="town-motto"></span>
+                    </div>
+                    <div class="town-detail">
+                        <p class="yearFounded"></p>
+                        <p class="population"></p>
+                        <p class="rainfall"></p>
+                    </div>
                 </div>
-            </div>
+            </section>
+            <section class="soda-springs-container-home homepage-section">
+                <picture>
+                    <img src="./images/soda.jpg" alt="Soda Springs image" class="img">
+                </picture>
+                <div class="soda-springs-home homepage-div">
+                    <div class="homepage-townname-motto">
+                        <h2 class="town-name"></h2>
+                        <span class="town-motto"></span>
+                    </div>
+                    <div class="town-detail">
+                        <p class="yearFounded"></p>
+                        <p class="population"></p>
+                        <p class="rainfall"></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="events">
+            <h3 id="upcoming-events">Trending News</h3>
+            <div class="events-container"></div>
         </section>
-
-
-        <section class="fish-haven-container-home homepage-section">
-            <picture>
-                <img class="img" id="fish-haven-img" src="./images/fish.jpg" alt="Fish Haven image">
-            </picture>
-
-            <div class="fish-haven-home homepage-div">
-                <div class="homepage-townname-motto">
-                    <h2 class="town-name"></h2>
-                    <span class="town-motto"></span>
-                </div>
-                <div class="town-detail">
-                    <p class="yearFounded"></p>
-                    <p class="population"></p>
-                    <p class="rainfall"></p>
-                </div>
-            </div>
-        </section>
-        <section class="soda-springs-container-home homepage-section">
-            <picture>
-                <img src="./images/soda.jpg" alt="Soda Springs image" class="img">
-            </picture>
-            <div class="soda-springs-home homepage-div">
-                <div class="homepage-townname-motto">
-                    <h2 class="town-name"></h2>
-                    <span class="town-motto"></span>
-                </div>
-                <div class="town-detail">
-                    <p class="yearFounded"></p>
-                    <p class="population"></p>
-                    <p class="rainfall"></p>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <section class="events">
-        <h3 id="upcoming-events">Trending News</h3>
-        <div class="events-container"></div>
-    </section>
 
 
     </main>
@@ -124,14 +130,16 @@
             <p id="updated"></p>
 
             <p class="credit">All weather data is sourced from <a href="https://openweathermap.org"
-                target="_blank">OpenWeatherMap</a></p>
-        <a href="./wireframe.html">wireframes</a>
+                    target="_blank">OpenWeatherMap</a></p>
+            <a href="./wireframe.html">wireframes</a>
         </div>
     </footer>
     <script src="./scripts/togglemenu.js"></script>
     <script src="./scripts/galleryLazyLoad.js"></script>
     <script src="./scripts/homepagedata.js"></script>
     <script src="./scripts/trendingnews.js"></script>
+    <script src="./scripts/search.js"></script>
+
 </body>
 
 </html>
